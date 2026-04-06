@@ -1,0 +1,10 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFFCFA"/>
+  <rect width="1200" height="630" fill="#FBF3EE" opacity="0.5"/>
+  <text x="80" y="200" font-family="Georgia, serif" font-size="72" font-weight="300" fill="#2C2420">after<tspan fill="#C4785A">betting</tspan></text>
+  <text x="80" y="310" font-family="Georgia, serif" font-size="52" font-weight="300" fill="#2C2420" font-style="italic">Quit gambling.</text>
+  <text x="80" y="380" font-family="Georgia, serif" font-size="52" font-weight="300" fill="#2C2420" font-style="italic">Rebuild your life.</text>
+  <text x="80" y="480" font-family="Arial, sans-serif" font-size="28" font-weight="300" fill="#9E8E86">Free to start. No credit card required.</text>
+  <rect x="80" y="530" width="220" height="52" rx="26" fill="#C4785A"/>
+  <text x="190" y="563" font-family="Arial, sans-serif" font-size="20" font-weight="500" fill="#fff" text-anchor="middle">Start free today</text>
+</svg>
