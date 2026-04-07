@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/:path*", "destination": "https://afterbetting.com/:path*", "permanent": true, "has": [{"type": "host", "value": "www.afterbetting.com"}] }
+  ],
   "rewrites": [
     { "source": "/blog/:slug", "destination": "/blog/:slug.html" }
   ],
