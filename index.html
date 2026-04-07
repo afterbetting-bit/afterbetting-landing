@@ -156,7 +156,7 @@
     <p class="note">No credit card. No time limit. Available worldwide.</p>
     <div class="calc">
       <div class="calc-label">How much do you spend on gambling per week?</div>
-      <div class="calc-input"><span style="color:var(--muted)">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
+      <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
       <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a href="https://app.afterbetting.com/onboarding" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
     </div>
     <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;document.getElementById("yearly").textContent="€"+Math.round(w*52).toLocaleString();}</script>
@@ -249,7 +249,7 @@
       <div class="plan featured">
         <div class="plan-badge">Most popular</div>
         <div class="plan-tier">Progress</div>
-        <div class="plan-price">€9.99 <span>/month</span></div>
+        <div class="plan-price"><span class="price-progress">€9.99</span> <span>/month</span></div>
         <p class="plan-desc">The complete daily toolkit for recovery.</p>
         <ul class="plan-features">
           <li><span class="check">✓</span> Everything in Free</li>
@@ -263,7 +263,7 @@
       </div>
       <div class="plan">
         <div class="plan-tier">Premium</div>
-        <div class="plan-price">€19.99 <span>/month</span></div>
+        <div class="plan-price"><span class="price-premium">€19.99</span> <span>/month</span></div>
         <p class="plan-desc">Deep transformation and full financial recovery.</p>
         <ul class="plan-features">
           <li><span class="check">✓</span> Everything in Progress</li>
