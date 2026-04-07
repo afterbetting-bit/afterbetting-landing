@@ -50,6 +50,16 @@
     .hero-sub{font-size:1.05rem;color:var(--mid);line-height:1.7;margin-bottom:2rem;font-weight:300}
     .ctas{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem}
     .note{font-size:.78rem;color:var(--muted)}
+    .calc{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.25rem 1.5rem;margin-top:1.5rem;max-width:420px}
+    .calc-label{font-size:.8rem;color:var(--muted);margin-bottom:.4rem}
+    .calc-input{display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+    .calc-input input{width:100%;padding:.55rem .75rem;border:1px solid var(--border);border-radius:8px;font-family:"DM Sans",sans-serif;font-size:1rem;color:var(--dark);background:var(--warm)}
+    .calc-result{background:var(--clay-bg);border:1px solid var(--clay-light);border-radius:10px;padding:.85rem 1rem;display:flex;justify-content:space-between;align-items:center}
+    .calc-amount{font-family:"Fraunces",serif;font-size:1.6rem;font-weight:300;color:var(--clay)}
+    .calc-sub{font-size:.78rem;color:var(--mid);font-weight:300}
+    .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--border);padding:.85rem 1.25rem;z-index:200;box-shadow:0 -4px 20px rgba(44,36,32,.08)}
+    .sticky-cta a{display:block;background:var(--clay);color:#fff;text-align:center;padding:.85rem;border-radius:100px;font-size:.95rem;font-weight:500;text-decoration:none;font-family:"DM Sans",sans-serif}
+    @media(max-width:768px){.sticky-cta{display:block}}
     .hero-card{background:#fff;border-radius:20px;border:1px solid var(--border);padding:1.75rem;box-shadow:0 8px 40px rgba(44,36,32,.08)}
     .card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem}
     .card-name{font-family:'Fraunces',serif;font-size:1rem;color:var(--dark)}
@@ -338,5 +348,6 @@
   </div>
 </footer>
 
+<div class="sticky-cta"><a href="https://app.afterbetting.com/onboarding">Start free today — no credit card needed</a></div>
 </body>
 </html>
