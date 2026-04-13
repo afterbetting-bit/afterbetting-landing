@@ -3,7 +3,7 @@
   var lang = navigator.language || '';
   var symbol = '\u20ac';
   var progress = '9.99';
-  var premium = '19.99';
+  var premium = '14.99';
   var calcSymbol = '\u20ac';
 
   if (tz.indexOf('London') > -1 || tz.indexOf('Dublin') > -1 || lang.indexOf('en-GB') > -1) {
