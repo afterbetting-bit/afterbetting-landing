@@ -32,6 +32,10 @@
     {
       "source": "/es",
       "destination": "/es/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
     }
   ],
   "headers": [
