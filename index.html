@@ -164,9 +164,9 @@
     <div class="calc">
       <div class="calc-label">How much do you spend on gambling per week?</div>
       <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
-      <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=calculator" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
+      <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=calculator" id="calc-cta" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
     </div>
-    <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;document.getElementById("yearly").textContent="€"+Math.round(w*52).toLocaleString();}</script>
+    <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;var y=Math.round(w*52);document.getElementById("yearly").textContent="€"+y.toLocaleString();var btn=document.getElementById("calc-cta");if(btn){btn.textContent=y>0?"Save €"+y.toLocaleString()+" this year":"Start saving";}}</script>
   </div>
   <div class="hero-card" role="img" aria-label="Afterbetting recovery dashboard showing streak, savings and habits">
     <div class="card-head">
