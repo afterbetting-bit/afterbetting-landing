@@ -14,6 +14,14 @@
   ],
   "rewrites": [
     {
+      "source": "/nl/blog",
+      "destination": "/nl/blog/index.html"
+    },
+    {
+      "source": "/nl/blog/:slug",
+      "destination": "/nl/blog/:slug.html"
+    },
+    {
       "source": "/blog/:slug",
       "destination": "/blog/:slug.html"
     },

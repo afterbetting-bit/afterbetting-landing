@@ -192,4 +192,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog"/>
+  </url>
+
+  <url>
+    <loc>https://afterbetting.com/nl/blog/stoppen-met-gokken</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/stoppen-met-gokken"/>
+  </url>
+
+  <url>
+    <loc>https://afterbetting.com/nl/blog/gokverslaving-herkennen</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-herkennen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/gokverslaving-herkennen"/>
+  </url>
+
+  <url>
+    <loc>https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+  </url>
+
+  <url>
+    <loc>https://afterbetting.com/nl/blog/wat-doet-gokken-met-je-hersenen</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/wat-doet-gokken-met-je-hersenen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
+  </url>
+
 </urlset>
