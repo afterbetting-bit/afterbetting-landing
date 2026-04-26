@@ -63,7 +63,8 @@
     .calc-sub{font-size:.78rem;color:var(--mid);font-weight:300}
     .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--border);padding:.85rem 1.25rem;z-index:200;box-shadow:0 -4px 20px rgba(44,36,32,.08)}
     .sticky-cta a{display:block;background:var(--clay);color:#fff;text-align:center;padding:.85rem;border-radius:100px;font-size:.95rem;font-weight:500;text-decoration:none;font-family:"DM Sans",sans-serif}
-    @media(max-width:768px){.sticky-cta{display:block}.hero{grid-template-columns:1fr;padding:3rem 1.5rem;gap:2.5rem}h1{font-size:2.4rem}.section{padding:3.5rem 1.5rem !important}.proof{padding:2rem 1.5rem}}
+    @media(max-width:768px){.sticky-cta{display:block}.swipe-hint{display:block !important}nav .nav-links{display:none}.hero{grid-template-columns:1fr;padding:2.5rem 1.25rem;gap:1.5rem}.hero-card{display:none}h1{font-size:2rem}.hero-sub{font-size:.95rem}.proof{padding:2rem 1.25rem}.proof-inner{gap:1.5rem}.section{padding:2.5rem 1.25rem !important}h2{font-size:1.8rem}.how{grid-template-columns:1fr;gap:1.25rem}.features{grid-template-columns:1fr 1fr;gap:.75rem}.f-desc{display:none}.pricing{grid-template-columns:1fr}.faq{grid-template-columns:1fr}.trust{padding:1.5rem 1.25rem}.trust-inner{gap:1rem}footer{padding:2rem 1.25rem}.footer-grid{grid-template-columns:1fr 1fr;gap:1.5rem}.f-bottom{flex-direction:column;text-align:center}}
+    @media(max-width:480px){.features{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr}h1{font-size:1.75rem}}
     .hero-card{background:#fff;border-radius:20px;border:1px solid var(--border);padding:1.75rem;box-shadow:0 8px 40px rgba(44,36,32,.08)}
     .card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem}
     .card-name{font-family:'Fraunces',serif;font-size:1rem;color:var(--dark)}
@@ -220,6 +221,7 @@
         </div>
       </div>
     </div>
+    <p style="text-align:center;font-size:.82rem;color:var(--mid);margin-top:0.75rem;display:none" class="swipe-hint">Veeg om meer te zien</p>
   </div>
 </section>
 
@@ -259,44 +261,34 @@
     <p class="section-sub">Geen ruis. Geen poespas. Alleen wat werkt.</p>
     <div class="features">
       <div class="feature">
-        <div class="f-icon">🔥</div>
-        <div class="f-title">Streak en dagelijkse check-ins</div>
-        <p class="f-desc">Elke dag telt. Vooral de moeilijke. Dag 1 telt net zo hard als dag 100. Val je terug? De volgende dag begin je opnieuw. Dat mag.</p>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="2" stroke="#C4785A" stroke-width="1.5"/><path d="M3 10h18" stroke="#C4785A" stroke-width="1.5"/><rect x="7" y="3" width="2" height="4" rx="1" fill="#C4785A"/><rect x="15" y="3" width="2" height="4" rx="1" fill="#C4785A"/><rect x="7" y="13" width="2" height="2" rx="0.5" fill="#C4785A"/><rect x="11" y="13" width="2" height="2" rx="0.5" fill="#C4785A"/><rect x="15" y="13" width="2" height="2" rx="0.5" fill="#C4785A"/></svg></div>
+        <div class="f-title">Streak en mijlpalen</div>
+        <p class="f-desc">Elke dag telt. Vooral de moeilijke. Mijlpalen op dag 7, 30, 100 en 365. Op dag 1 schrijf je een brief aan jezelf. Op dag 365 krijg je hem terug.</p>
       </div>
       <div class="feature">
-        <div class="f-icon">📓</div>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="#C4785A" stroke-width="1.5"/><path d="M9 8h6M9 12h6M9 16h4" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round"/></svg></div>
         <div class="f-title">Journaal met 100+ prompts</div>
-        <p class="f-desc">Soms weet je pas wat je dwarszit als je het opschrijft. Onze prompts stellen de vraag die je liever ontwijkt. Geen sjablonen. Geen oordeel. Wel eerlijkheid.</p>
+        <p class="f-desc">Soms weet je pas wat je dwarszit als je het opschrijft. Onze prompts stellen de vraag die je liever ontwijkt. Geen sjablonen. Geen oordeel.</p>
       </div>
       <div class="feature">
-        <div class="f-icon">✅</div>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#C4785A" stroke-width="1.5"/><path d="M8 12l3 3 5-5" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="f-title">Gewoonten tracker</div>
-        <p class="f-desc">Stoppen met gokken laat een leeg uur achter. Soms vier. De tracker helpt je dat invullen met dingen die je sterker maken. Slapen. Sporten. Bellen met iemand. Lopen.</p>
+        <p class="f-desc">Stoppen met gokken laat een leeg uur achter. Soms vier. De tracker helpt je dat invullen. Slapen. Sporten. Bellen met iemand. Lopen.</p>
       </div>
       <div class="feature">
-        <div class="f-icon">💶</div>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="14" width="4" height="7" rx="1" fill="#C4785A"/><rect x="10" y="10" width="4" height="11" rx="1" fill="#C4785A"/><rect x="17" y="6" width="4" height="15" rx="1" fill="#C4785A"/><path d="M3 7l5-3 5 3 5-4" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="f-title">Financieel dashboard</div>
         <p class="f-desc">Cijfers liegen niet. Je ziet wat gokken je heeft gekost. Je ziet ook wat je nu terugwint, week na week. Schulden bijhouden. Spaargeld berekenen.</p>
       </div>
       <div class="feature">
-        <div class="f-icon">🆘</div>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v6c0 5 3.5 9 9 10 5.5-1 9-5 9-10V7l-9-5z" stroke="#C4785A" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 8v4M12 16h.01" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round"/></svg></div>
         <div class="f-title">Crisisknop</div>
-        <p class="f-desc">Eén knop. Direct lucht. Ademhalingsoefeningen, grondingstechnieken en hulplijnen op één plek. Inclusief de Nationale Hulplijn Gokken: 0800-1995. Gratis. 24/7.</p>
+        <p class="f-desc">Eén knop. Direct lucht. Ademhalingsoefeningen, grondingstechnieken en hulplijnen op één plek. Inclusief Nationale Hulplijn Gokken: 0800-1995.</p>
       </div>
       <div class="feature">
-        <div class="f-icon">🎯</div>
-        <div class="f-title">Mijlpalen en je brief van een jaar</div>
-        <p class="f-desc">Op dag 7, 30 en 100 krijg je een bericht. Op dag 1 schrijf je een brief aan jezelf. Op dag 365 krijg je hem terug. Lees terug wat je toen hoopte. En zie hoe ver je bent gekomen.</p>
-      </div>
-      <div class="feature">
-        <div class="f-icon">👥</div>
+        <div class="f-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3.5" stroke="#C4785A" stroke-width="1.5"/><circle cx="17" cy="9" r="2.5" stroke="#C4785A" stroke-width="1.5"/><path d="M3 19c0-3 2.5-5 6-5s6 2 6 5" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round"/><path d="M15 18c0-2 2-3.5 4-3.5" stroke="#C4785A" stroke-width="1.5" stroke-linecap="round"/></svg></div>
         <div class="f-title">Support Circle <span style="font-size:.7rem;background:var(--clay-bg);color:var(--clay);padding:.15rem .55rem;border-radius:100px;margin-left:.4rem;font-weight:500">Premium</span></div>
-        <p class="f-desc">Geen anoniem forum. Geen vreemden. Nodig één of twee mensen uit je eigen leven uit. Je partner. Je broer. Je beste vriend. Zij zien je voortgang. Zij staan klaar.</p>
-      </div>
-      <div class="feature">
-        <div class="f-icon">🤖</div>
-        <div class="f-title">AI begeleiding <span style="font-size:.7rem;background:var(--clay-bg);color:var(--clay);padding:.15rem .55rem;border-radius:100px;margin-left:.4rem;font-weight:500">Premium</span></div>
-        <p class="f-desc">Private, oordeelvrije ondersteuning wanneer je het nodig hebt. Een gesprek midden in de nacht. Een vraag waar je nergens mee terecht kan. Altijd beschikbaar.</p>
+        <p class="f-desc">Geen anoniem forum. Geen vreemden. Nodig één of twee mensen uit je eigen leven uit. Je partner. Je broer. Je beste vriend.</p>
       </div>
     </div>
   </div>
