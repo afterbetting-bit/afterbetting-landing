@@ -34,6 +34,10 @@
       "destination": "/es/index.html"
     },
     {
+      "source": "/nl/about",
+      "destination": "/nl/about.html"
+    },
+    {
       "source": "/about",
       "destination": "/about.html"
     }
