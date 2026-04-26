@@ -93,6 +93,13 @@
     .f-icon{font-size:1.5rem;margin-bottom:.75rem}
     .f-title{font-family:'Fraunces',serif;font-size:1.05rem;font-weight:400;margin-bottom:.5rem;color:var(--dark)}
     .f-desc{font-size:.875rem;color:var(--mid);line-height:1.65;font-weight:300}
+    .pricing-toggle{display:inline-flex;align-items:center;gap:0;background:#fff;border:1px solid var(--border);border-radius:100px;padding:4px;margin-bottom:.75rem}
+    .pricing-toggle button{background:none;border:none;padding:.5rem 1.25rem;border-radius:100px;font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:500;color:var(--mid);cursor:pointer;transition:all .2s}
+    .pricing-toggle button.active{background:var(--clay);color:#fff}
+    .pricing-savings{display:inline-block;margin-left:.75rem;font-size:.78rem;color:var(--green);background:var(--green-bg);border:1px solid var(--green-border);padding:.25rem .65rem;border-radius:100px;font-weight:500}
+    .plan-billed{font-size:.78rem;color:var(--muted);margin-bottom:.75rem;min-height:1rem}
+    .plan-price .price{font-size:2.2rem;color:var(--dark);font-weight:300}
+    .plan-price .price-period{font-size:.95rem;color:var(--muted)}
     .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
     .plan{background:#fff;border:1px solid var(--border);border-radius:14px;padding:2rem;position:relative}
     .plan.featured{background:var(--clay-bg);border:2px solid var(--clay)}
@@ -260,20 +267,28 @@
 </section>
 <section class="section" id="pricing">
   <div class="section-inner">
-    <div class="label">Gambling Recovery App — Pricing</div>
+    <div class="label">Gambling Recovery App, Pricing</div>
     <h2>Start your gambling recovery for free.</h2>
-    <p class="pricing-sub">No credit card. No pressure. The free plan is a genuine gambling recovery tool — not a watered-down teaser.</p>
+    <p class="pricing-sub">No credit card. No pressure. The free plan is a genuine gambling recovery tool, not a watered-down teaser.</p>
+    <div style="text-align:center;margin-bottom:1rem">
+      <div class="pricing-toggle" role="tablist" aria-label="Choose billing period">
+        <button type="button" id="toggle-monthly-en" onclick="setBillingEn('monthly')" aria-pressed="false">Monthly</button>
+        <button type="button" id="toggle-yearly-en" class="active" onclick="setBillingEn('yearly')" aria-pressed="true">Yearly</button>
+      </div>
+      <span class="pricing-savings">Save up to 33%</span>
+    </div>
     <div class="pricing">
       <div class="plan">
         <div class="plan-tier">Free</div>
-        <div class="plan-price">Free <span>/forever</span></div>
+        <div class="plan-price"><span class="price">Free</span> <span class="price-period">/forever</span></div>
+        <div class="plan-billed">No cost, ever</div>
         <p class="plan-desc">A real foundation. No cost, no commitment.</p>
         <ul class="plan-features">
-          <li><span class="check">✓</span> Recovery streak tracker</li>
-          <li><span class="check">✓</span> 3 journal prompts per week</li>
-          <li><span class="check">✓</span> 3 habit slots</li>
-          <li><span class="check">✓</span> Basic dashboard</li>
-          <li><span class="check">✓</span> Crisis button</li>
+          <li><span class="check">&#10003;</span> Recovery streak tracker</li>
+          <li><span class="check">&#10003;</span> 3 journal prompts per week</li>
+          <li><span class="check">&#10003;</span> 3 habit slots</li>
+          <li><span class="check">&#10003;</span> Basic dashboard</li>
+          <li><span class="check">&#10003;</span> Crisis button</li>
         </ul>
         <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_free" class="plan-cta outline">Start free now</a>
         <p class="plan-note">No credit card required</p>
@@ -281,34 +296,66 @@
       <div class="plan featured">
         <div class="plan-badge">Most popular</div>
         <div class="plan-tier">Progress</div>
-        <div class="plan-price"><span class="price-progress">€9.99</span> <span>/month</span></div>
+        <div class="plan-price"><span class="price" id="price-progress-en">&#8364;6.67</span> <span class="price-period" id="period-progress-en">/month</span></div>
+        <div class="plan-billed" id="billed-progress-en">&#8364;79.99 per year, billed upfront</div>
         <p class="plan-desc">The complete daily toolkit for recovery.</p>
         <ul class="plan-features">
-          <li><span class="check">✓</span> Everything in Free</li>
-          <li><span class="check">✓</span> Unlimited journaling</li>
-          <li><span class="check">✓</span> Unlimited habits</li>
-          <li><span class="check">✓</span> Financial dashboard and debt tracker</li>
-          <li><span class="check">✓</span> Debt repayment strategy (snowball and avalanche)</li>
-          <li><span class="check">✓</span> Mood analytics</li>
-          <li><span class="check">✓</span> Weekly email report</li>
+          <li><span class="check">&#10003;</span> Everything in Free</li>
+          <li><span class="check">&#10003;</span> Unlimited journaling</li>
+          <li><span class="check">&#10003;</span> Unlimited habits</li>
+          <li><span class="check">&#10003;</span> Financial dashboard and debt tracker</li>
+          <li><span class="check">&#10003;</span> Debt repayment strategy (snowball and avalanche)</li>
+          <li><span class="check">&#10003;</span> Mood analytics</li>
+          <li><span class="check">&#10003;</span> Weekly email report</li>
         </ul>
-        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress" class="plan-cta filled">Get Progress</a>
+        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=yearly" id="cta-progress-en" class="plan-cta filled">Get Progress</a>
       </div>
       <div class="plan">
         <div class="plan-tier">Premium</div>
-        <div class="plan-price"><span class="price-premium">€14.99</span> <span>/month</span></div>
+        <div class="plan-price"><span class="price" id="price-premium-en">&#8364;10.00</span> <span class="price-period" id="period-premium-en">/month</span></div>
+        <div class="plan-billed" id="billed-premium-en">&#8364;119.99 per year, billed upfront</div>
         <p class="plan-desc">For when you are ready to go deeper. Built for the hard months, not just the first week.</p>
         <ul class="plan-features">
-          <li><span class="check">✓</span> Everything in Progress</li>
-          <li><span class="check">✓</span> AI Anchor recovery companion</li>
-          <li><span class="check">✓</span> Financial strategy simulator</li>
-          <li><span class="check">✓</span> Support circle with permission controls</li>
-          <li><span class="check">✓</span> Financial goals and milestone tracking</li>
-          <li><span class="check">✓</span> Priority email support</li>
+          <li><span class="check">&#10003;</span> Everything in Progress</li>
+          <li><span class="check">&#10003;</span> AI Anchor recovery companion</li>
+          <li><span class="check">&#10003;</span> Financial strategy simulator</li>
+          <li><span class="check">&#10003;</span> Support circle with permission controls</li>
+          <li><span class="check">&#10003;</span> Financial goals and milestone tracking</li>
+          <li><span class="check">&#10003;</span> Priority email support</li>
         </ul>
-        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium" class="plan-cta outline">Get Premium</a>
+        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=yearly" id="cta-premium-en" class="plan-cta outline">Get Premium</a>
       </div>
     </div>
+    <script>
+      function setBillingEn(mode){
+        var euro=String.fromCharCode(8364);
+        var mb=document.getElementById("toggle-monthly-en");
+        var yb=document.getElementById("toggle-yearly-en");
+        var pp=document.getElementById("price-progress-en");
+        var ppe=document.getElementById("period-progress-en");
+        var pb=document.getElementById("billed-progress-en");
+        var pm=document.getElementById("price-premium-en");
+        var pme=document.getElementById("period-premium-en");
+        var pmb=document.getElementById("billed-premium-en");
+        var ctaP=document.getElementById("cta-progress-en");
+        var ctaM=document.getElementById("cta-premium-en");
+        if(mode==="monthly"){
+          mb.classList.add("active");yb.classList.remove("active");
+          mb.setAttribute("aria-pressed","true");yb.setAttribute("aria-pressed","false");
+          pp.textContent=euro+"9.99";ppe.textContent="/month";pb.textContent="Billed monthly";
+          pm.textContent=euro+"14.99";pme.textContent="/month";pmb.textContent="Billed monthly";
+          ctaP.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=monthly";
+          ctaM.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=monthly";
+        } else {
+          yb.classList.add("active");mb.classList.remove("active");
+          yb.setAttribute("aria-pressed","true");mb.setAttribute("aria-pressed","false");
+          pp.textContent=euro+"6.67";ppe.textContent="/month";pb.textContent=euro+"79.99 per year, billed upfront";
+          pm.textContent=euro+"10.00";pme.textContent="/month";pmb.textContent=euro+"119.99 per year, billed upfront";
+          ctaP.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=yearly";
+          ctaM.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=yearly";
+        }
+      }
+    </script>
   </div>
 </section>
 
