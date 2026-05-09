@@ -1,0 +1,114 @@
+import json
+CSS = open("nl/blog/stoppen-met-gokken.html").read().split("<style>")[1].split("</style>")[0]
+GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
+FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
+NAV = '<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
+
+slug = "cruks-omzeilen-wat-nu"
+url = f"https://afterbetting.com/nl/blog/{slug}"
+title = "Cruks omzeilen lukt me. En toch wil ik stoppen"
+desc = "Cruks omzeilen via buitenlandse sites? Je bent niet alleen, en je bent ook niet hopeloos. Wat dit zegt en wat je nu kunt doen."
+
+sa = json.dumps({"@context":"https://schema.org","@type":"Article","headline":"Cruks omzeilen lukt me. En toch wil ik stoppen.","author":{"@type":"Organization","name":"Afterbetting"},"publisher":{"@type":"Organization","name":"Afterbetting","url":"https://afterbetting.com"},"datePublished":"2026-05-09","dateModified":"2026-05-09","inLanguage":"nl","url":url})
+sb = json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://afterbetting.com/nl/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://afterbetting.com/nl/blog"},{"@type":"ListItem","position":3,"name":"Cruks omzeilen wat nu","item":url}]})
+
+hero = '<section class="hero"><div class="hero-inner"><div class="bc"><a href="/nl/">Home</a> &rarr; <a href="/nl/blog">Blog</a> &rarr; Crisis</div><div class="tag">Crisis</div><h1>Cruks omzeilen lukt me. En toch wil ik stoppen.</h1><p style="font-size:1.1rem;color:var(--mid);font-weight:300;line-height:1.7;margin-top:1rem">Je hebt jezelf uitgesloten via Cruks. En toch zit je hier. Want het lukt om eromheen te gokken. Lees verder. Je bent niet hopeloos. Je hebt alleen een ander pakket nodig.</p><div class="meta">Door Afterbetting &middot; 9 mei 2026 &middot; 9 min lezen</div></div></section>'
+
+body = """<p>Even iets uitspreken.</p>
+<p>Je hebt op een eerlijk moment in je leven naar Cruks gegaan. Je hebt jezelf laten uitsluiten. Misschien voor zes maanden. Misschien voor onbepaalde tijd. Een goede beslissing op een goede dag.</p>
+<p>En nu zit je tussen de afhalingen door op een buitenlandse site. Of op een illegaal Nederlands platform dat Cruks omzeilt. Of op een crypto-casino. Of bij een ondergrondse bookmaker. En je hebt vandaag of gisteren of vorige week weer gegokt.</p>
+<p>Eerst dit: het feit dat je dit artikel zoekt, betekent dat je nog niet bent opgegeven. Je googelt geen "cruks omzeilen", je googelt iets als "cruks omzeilen lukt me, wat nu". Dat is een verschil. Iemand die echt is opgehouden met willen stoppen, leest dit niet.</p>
+<p>Wat ik nu ga doen is geen oordeel geven. Ik weet hoe het werkt. Ik weet ook hoe je hieruit komt. Lees rustig door.</p>
+<h2>Eerst: wat dit niet betekent</h2>
+<p>Het betekent niet dat je hopeloos bent. Niet dat je een verloren zaak bent. Niet dat je nooit zult stoppen.</p>
+<p>Het betekent dat je verslaving sterker is dan een enkele oplossing. En het betekent dat de aanpak die je tot nu toe gekozen hebt (een hek opwerpen) onvoldoende is voor wat je hersenen nodig hebben.</p>
+<p>Een hek is niet genoeg voor mensen met een ernstige verslaving. Dat is geen falen. Dat is informatie. Het laat zien hoeveel infrastructuur er bij jou nodig is.</p>
+<p>Lees ook: <a href="/nl/blog/zelfuitsluiting-gokken-werkt-het">Werkt zelfuitsluiting bij gokken, een eerlijk antwoord</a>.</p>
+<h2>Wat dit wel betekent</h2>
+<p>Drie dingen. Erken ze, dan is de rest makkelijker.</p>
+<p><strong>Een: het verslaafde brein zoekt routes.</strong></p>
+<p>Dat is wat het doet. Punt. Je kunt het niet kwalijk nemen, je hoeft het ook niet te bewonderen. Het is een biologisch feit. Een verslaafd brein is een routezoeker. Sluit je een deur af, dan zoekt het de volgende deur.</p>
+<p>De fout is denken dat een deur dichtdoen genoeg is. Dat is bij een lichte gewoonte misschien zo. Bij verslaving niet. Bij verslaving moet je het hele blok afsluiten.</p>
+<p><strong>Twee: dit is het patroon dat jaren kost als het niet doorbroken wordt.</strong></p>
+<p>Mensen die Cruks omzeilen via buitenlandse sites, zitten vaak vier, vijf, zes jaar in een nare combinatie: ze zijn officieel "uitgesloten" en denken daarom dat ze "iets gedaan hebben aan hun probleem", terwijl ze ondertussen elke avond wel ergens spelen. Het is een vorm van verstopte verslaving. Voor de buitenwereld lijkt er actie ondernomen, voor jezelf is er feitelijk niets veranderd.</p>
+<p>Dat is misschien wel het gevaarlijkste type gokverslaving. Want het is onzichtbaar voor de mensen om je heen.</p>
+<p><strong>Drie: het kan stoppen.</strong></p>
+<p>Niet vandaag. Niet door een nieuwe site te zoeken om weer te omzeilen. Wel door het hele setup te wijzigen. Daar komen we zo op.</p>
+<h2>De buitenlandse sites en illegale platforms</h2>
+<p>Even feitelijk wat je gebruikt.</p>
+<p><strong>Buitenlandse aanbieders zonder Nederlandse vergunning.</strong> Sites met vergunningen uit Curacao, Malta, Gibraltar, Anjouan, Costa Rica. Vaak Engelstalig of half-Nederlands. Geen Cruks-koppeling. Vaak iDEAL niet, wel andere betaalmethoden, of crypto.</p>
+<p><strong>Crypto-casino's.</strong> Volledig in Bitcoin, Ethereum of stablecoins. Geen IBAN, geen Cruks. Veel onbetrouwbaar. Sommige zijn complete oplichting, sommige werken technisch wel maar staan onder geen toezicht.</p>
+<p><strong>Illegale Nederlandse aanbieders.</strong> Sites die zich richten op de Nederlandse markt zonder vergunning. Vaak verboden door de Kansspelautoriteit, blijven verschijnen onder andere domeinnamen. Tegen Cruks omzeilen ze door geen koppeling te hebben.</p>
+<p><strong>Sportgok-routes via Telegram, Discord of WhatsApp.</strong> Ondergrondse bookmakers, vaak rondom voetbal. Privegroepen waar je wedt zonder formele site, met onderlinge betaling. Risico op niet-uitbetalen, op afpersing, op kennissen die door jou meegezogen worden.</p>
+<p>Wat ze allemaal gemeen hebben: geen consumentenbescherming, geen verifieerbare uitbetalingen, geen verhaal als je geld kwijt is, en gemiddeld nog hogere ingebouwde marges dan legale aanbieders.</p>
+<p>Het wordt dus dubbel verlies. De verslaving slaat toe. En je verliest aan een speelveld waar het oneerlijker is.</p>
+<h2>Waarom de huidige aanpak niet werkt</h2>
+<p>Je hebt waarschijnlijk gedaan wat de website van Cruks suggereert. Account uitschrijven, telefoonnummer invullen, klaar.</p>
+<p>Voor mensen met een lichte gokneiging is dat genoeg. Voor jou is het te dun. Hier is wat ontbreekt.</p>
+<p><strong>Geen technisch slot op je apparaten.</strong> Je telefoon, je laptop, je tablet hebben gewoon toegang tot het internet. Cruks blokkeert legale Nederlandse sites in je gebruikersaccount, niet je apparaten.</p>
+<p><strong>Geen geldslot.</strong> Je bank weet niet dat je een gokverslaving hebt. Transacties naar buitenlandse betaalproviders gaan gewoon door. Crypto-aankopen gaan ook door.</p>
+<p><strong>Geen sociaal slot.</strong> Niemand weet wat je 's avonds doet. Je leeft het patroon door in stilte.</p>
+<p><strong>Geen tijdslot.</strong> Niemand wacht je op. Geen vaste afspraak met een hulpverlener of vertrouwenspersoon waar je niet onder uit kunt.</p>
+<p>Bij elke stap die ontbreekt, vindt je verslaafd brein een opening. Logisch. Het is gewoon hoe het werkt.</p>
+<p>Wat je nodig hebt is een gestapelde aanpak. Lagen op elkaar.</p>
+<h2>Het pakket dat wel werkt</h2>
+<p>Hier komt het concrete plan. Je hoeft niet alles op een dag te doen, maar wel binnen een week. Niet in maanden. Een week.</p>
+<p><strong>Laag 1: technische blokkades op je apparaten.</strong></p>
+<p>Niet de Cruks-route. Een aparte route, op het apparaat zelf.</p>
+<ul><li>Op iPhone: ga naar Instellingen, Schermtijd, Beperkingen voor inhoud en privacy. Daar kun je hele categorieen websites blokkeren of een whitelist maken. Of installeer Bark of Aura voor strakkere controle</li><li>Op Android: Family Link of een app als BlockSite of Stay Focused</li><li>Op je laptop: Cold Turkey Blocker (betaald, sterk), Freedom, of een DNS-niveau filter zoals NextDNS of Cleanbrowsing.org. NextDNS heeft een gratis variant en kan op router-niveau gokwebsites blokkeren</li></ul>
+<p>Cruciaal: zet de wachtwoorden voor deze blokkades niet zelf. Laat een vertrouwde partner of vriend de wachtwoorden bewaren. Of gebruik een willekeurige wachtwoordgenerator en vernietig het briefje. Je verslaafde brein is een routezoeker. Hou de sleutel uit eigen handen.</p>
+<p><strong>Laag 2: bank-blokkade en crypto-blokkade.</strong></p>
+<p>Bel je bank. Vraag een gokblokkade aan. ABN, ING, Rabobank, SNS, Bunq kunnen het. Verschijnt soms onder verschillende namen, vraag specifiek om "blokkade voor transacties met categorie gokken/wedden".</p>
+<p>Vraag ook om blokkade van crypto-betaalplatformen (Bitvavo, Coinbase, Binance, Kraken). Sommige banken bieden dit, andere niet. Als jouw bank het niet biedt, sluit dan je crypto-accounts. Verkoop wat je hebt en haal het van die platforms af. Niet voor altijd. Zeker een jaar.</p>
+<p>Dit is geen straf. Dit is het verwijderen van zenuwbanen tussen jouw geld en gokken.</p>
+<p><strong>Laag 3: sociaal slot.</strong></p>
+<p>Iemand moet weten dat dit speelt. Een persoon. Een partner, een ouder, een goede vriend, een hulpverlener.</p>
+<p>Vertel ze het volgende: ik gok, ondanks Cruks. Ik wil hier echt uit. Ik vraag of jij me een keer per week vraagt: heb je deze week gegokt. Een vraag. Eerlijk antwoord van mij.</p>
+<p>Een vaste afspraak per week, met iemand die je niet kunt voorliegen, doorbreekt het patroon meer dan je nu denkt.</p>
+<p>Lees ook: <a href="/nl/blog/gokken-aan-je-familie-vertellen">Gokken aan je familie of partner vertellen</a>.</p>
+<p><strong>Laag 4: professionele hulp, niet later, deze maand.</strong></p>
+<p>Je situatie is voorbij het stadium van "zelf-aanpak". Niet uit gebrek aan kracht, maar omdat de combinatie van Cruks plus omzeilen aangeeft dat je een sterk patroon hebt dat begeleiding nodig heeft.</p>
+<p>Bel Jellinek, Tactus, of een regionale verslavingszorginstelling. Of begin met de huisarts en vraag verwijzing. Of bel de Nationale Hulplijn Gokken op 0800-1995 voor een eerste gesprek. Anoniem.</p>
+<p>Een hulpverlener die specifiek werkt met gokverslaving kan met je een terugvalpreventieplan opstellen. Dat is praktisch werk. Je triggers in kaart brengen. Je momenten in kaart brengen. Wat te doen als de drang komt.</p>
+<p>Dat is geen praatgroep met meelevende gezichten. Dat is concreet werk dat verschil maakt.</p>
+<p><strong>Laag 5: tijdsstructuur.</strong></p>
+<p>Wanneer gok je? Eerlijk antwoord. Avonden. Weekenden. Pauzes op werk. Nachten.</p>
+<p>Vul die tijden in. Niet abstract ("ik ga meer sporten"), maar specifiek.</p>
+<p>Dinsdagavond: zwemmen. Donderdagavond: kookles. Vrijdagavond: bij een vriend langs. Zaterdagochtend: lange wandeling. Zondagavond: een specifieke serie kijken bij iemand thuis.</p>
+<p>Lege uren zijn de gevaarlijkste uren. Maak ze niet leeg. Vul ze in voordat ze komen.</p>
+<p>Lees ook: <a href="/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken">Hoe vul ik mijn tijd zonder gokken</a> en <a href="/nl/blog/dagelijkse-gewoonten-na-gokverslaving">Dagelijkse gewoonten na gokverslaving</a>.</p>
+<h2>Wat je vanavond doet, voordat je gaat slapen</h2>
+<p>Lees dit niet als optie. Lees dit als plan.</p>
+<p><strong>Een:</strong> download op je telefoon NextDNS (of een vergelijkbaar filter) en activeer de gokken-categorie blokkade. Tien minuten.</p>
+<p><strong>Twee:</strong> in je e-mail, schrijf je uit van elke nieuwsbrief van bookmakers, casino's, betaalplatforms voor crypto. Maak een filter dat e-mails met woorden als "casino", "bonus", "deposit", "free spins" automatisch in een aparte map gaan. Of in de prullenbak.</p>
+<p><strong>Drie:</strong> verwijder van je telefoon en laptop alle apps en bookmarks naar gokwebsites, crypto-platforms, betaalproviders die je voor gokken gebruikte. Allemaal.</p>
+<p><strong>Vier:</strong> stuur vanavond een bericht naar een persoon. Iemand die je vertrouwt. Schrijf: "Ik moet je iets vertellen wat moeilijk is. Ik zit in een patroon met gokken dat ik zelf niet doorbreek. Mag ik je deze week kort spreken?"</p>
+<p>Niet meer. Geen verklaringen. Geen spijtbetuigingen. Een bericht.</p>
+<p><strong>Vijf:</strong> schrijf op een vel papier waarom je dit doet. Niet voor anderen. Voor jezelf. Iemand die je niet langer wilt zijn, lees terug. Iemand die je veranderd wilt zien, lees terug. Niet een belofte aan een persoon. Een herinnering aan jezelf.</p>
+<p>Stop dat papier ergens waar je het over twee weken terugleest.</p>
+<p><strong>Zes:</strong> ga slapen. Niet later op de avond een laatste sessie als afscheid. Geen "een laatste keer". Slapen.</p>
+<h2>Wat je morgenochtend doet</h2>
+<p>Bel je bank. Vraag de gokblokkade. Vraag specifiek of er ook een mogelijkheid is om transacties naar crypto-platforms te beperken. Bunq, Knab en sommige neobanken hebben hiervoor extra opties.</p>
+<p>Bel de huisarts. Maak een afspraak voor deze week. Zeg: "Ik heb hulp nodig bij gokverslaving, het loopt uit de hand."</p>
+<p>Bel Jellinek of een andere instelling voor verslavingszorg. Maak een intake-afspraak.</p>
+<p>Drie telefoontjes voor de lunch. Hou ze kort. Maak ze.</p>
+<h2>Een laatste ding</h2>
+<p>Iemand die jaren in dit patroon zit (Cruks plus omzeilen plus stilte) draagt iets zwaars. Veel zwaarder dan iemand die net begint en eerlijk in het systeem stapt.</p>
+<p>Je draagt schaamte over de schaamte. Schaamte dat je gokt, en schaamte dat je officieel uitgesloten bent en het toch doet. Schaamte dat de "oplossing" die anderen prijzen bij jou niet werkte.</p>
+<p>Hier is iets om mee te nemen.</p>
+<p>Je hebt geen wonder nodig. Je hebt geen ander mens hoeven worden. Je hoeft niet "eindelijk diep genoeg" gegaan te zijn. Wat je nodig hebt is een correcter pakket dan je nu hebt. Meer lagen. Meer hekken. Meer mensen.</p>
+<p>Cruks alleen is een dun papieren hek. Voor mensen met een ernstige verslaving moet er staal omheen. Geen schande. Bouwwerk.</p>
+<p>Bouw het. Vanavond eerste laag. Morgenochtend tweede en derde. Deze week de rest.</p>
+<p>En als het je niet lukt om dit alleen te doen, en dat is heel goed mogelijk, dan is dat niet de zoveelste mislukking. Dat is dan informatie dat je iemand naast je nodig hebt vanaf de eerste stap. Bel iemand vanavond. Een iemand. Vraag of die iemand morgenochtend met je gaat zitten en de eerste blokkades met je instelt.</p>
+<p>Niemand doet dit alleen. Mensen die het lukten, hadden allemaal iemand naast zich. Vaak meerdere mensen. Dat is geen zwakte. Dat is hoe het werkt.</p>
+<p>Vandaag is een goede dag om dat te beginnen. Beter dan gisteren. Eerder dan morgen.</p>"""
+
+related = '<a href="/nl/blog/zelfuitsluiting-gokken-werkt-het" class="rel-card"><div class="t">Tools</div><h4>Werkt zelfuitsluiting bij gokken</h4></a><a href="/nl/blog/terugval-na-gokverslaving" class="rel-card"><div class="t">Terugval</div><h4>Wat te doen na een gokterugval</h4></a><a href="/nl/blog/stoppen-met-gokken" class="rel-card"><div class="t">Herstel</div><h4>Stoppen met gokken: een eerlijke gids</h4></a><a href="/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken" class="rel-card"><div class="t">Gewoonten</div><h4>Hoe vul ik mijn tijd zonder gokken</h4></a>'
+
+html = f'<!DOCTYPE html>\n<html lang="nl">\n<head>\n<meta charset="UTF-8"/>\n<link rel="icon" type="image/svg+xml" href="/favicon.svg">\n<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">\n<meta name="viewport" content="width=device-width,initial-scale=1.0"/>\n<title>{title} | Afterbetting</title>\n<meta name="description" content="{desc}"/>\n<meta name="robots" content="index,follow"/>\n<link rel="canonical" href="{url}"/>\n<link rel="alternate" hreflang="nl" href="{url}"/>\n<link rel="alternate" hreflang="x-default" href="{url}"/>\n<meta property="og:type" content="article"/>\n<meta property="og:locale" content="nl_NL"/>\n<meta property="og:locale:alternate" content="nl_BE"/>\n<meta property="og:url" content="{url}"/>\n<meta property="og:title" content="{title} | Afterbetting"/>\n<meta property="og:description" content="{desc}"/>\n<meta property="og:image" content="https://afterbetting.com/og-image.png"/>\n<meta name="twitter:card" content="summary_large_image"/>\n<meta name="twitter:title" content="{title} | Afterbetting"/>\n<meta name="twitter:description" content="{desc}"/>\n<meta name="twitter:image" content="https://afterbetting.com/og-image.png"/>\n<script type="application/ld+json">{sa}</script>\n<script type="application/ld+json">{sb}</script>\n{GA}\n<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n{FONTS}\n<style>{CSS}</style>\n</head>\n<body>\n{NAV}\n{hero}\n<article class="body">\n{body}\n<div class="cta-block"><h3>Een hek is niet genoeg. Bouw je systeem.</h3><p>Afterbetting helpt je dag voor dag de lagen op te bouwen. Streak tracker, journal, financiele tools, crisis-knop.</p><a href="https://app.afterbetting.com/onboarding">Begin gratis</a></div>\n</article>\n<section class="related"><div class="rel-inner"><h3>Meer lezen</h3><div class="rel-grid">{related}</div></div></section>\n{CRISIS}\n{FOOTER}\n</body></html>'
+
+with open(f"nl/blog/{slug}.html","w") as f:
+    f.write(html)
+print(f"Done: nl/blog/{slug}.html ({len(html)} bytes)")
