@@ -388,4 +388,40 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu"/>
   </url>
+  <url>
+    <loc>https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-symptomen-en-kenmerken"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/my-partner-has-a-gambling-problem</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/gokverslaving-symptomen-en-kenmerken</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-symptomen-en-kenmerken"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
+  </url>
 </urlset>
