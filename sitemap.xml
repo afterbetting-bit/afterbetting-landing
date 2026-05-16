@@ -424,4 +424,22 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
   </url>
+  <url>
+    <loc>https://afterbetting.com/blog/gambling-depression-and-anxiety</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-depressie-en-angst"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/gokken-depressie-en-angst</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-depressie-en-angst"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
+  </url>
 </urlset>
