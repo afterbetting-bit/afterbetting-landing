@@ -10,6 +10,21 @@
           "value": "www.afterbetting.com"
         }
       ]
+    },
+    {
+      "source": "/onboarding",
+      "destination": "https://app.afterbetting.com/onboarding",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "https://app.afterbetting.com/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "https://app.afterbetting.com/terms",
+      "permanent": true
     }
   ],
   "rewrites": [
