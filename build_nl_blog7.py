@@ -3,7 +3,7 @@ CSS = open("nl/blog/stoppen-met-gokken.html").read().split("<style>")[1].split("
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 slug = "partner-heeft-mijn-gokken-ontdekt"
@@ -54,7 +54,7 @@ body = """<p>Misschien vond ze een afschrift. Misschien zag hij een melding op j
 <p>Vertrouwen is geen ja-of-nee. Het is een trage opbouw. Ze hoeft je niet morgen te vertrouwen. Ze hoeft alleen te zien dat je vandaag iets anders doet dan gisteren.</p>
 <p><strong>"Wat ga je nu doen?"</strong></p>
 <p>Dit is de enige vraag waar je vannacht een eerste antwoord op kunt geven. Niet door grote beloftes te doen. Wel door te zeggen wat je morgen concreet als eerste stap zet.</p>
-<p>Bijvoorbeeld: "Ik ga me morgen uitsluiten via Cruks. Ik ga maandag mijn bank bellen voor een gokblokkade. Ik ga deze week contact opnemen met de Nationale Hulplijn Gokken. Ik weet dat het meer is dan dat. Maar dit zijn de eerste drie dingen."</p>
+<p>Bijvoorbeeld: "Ik ga me morgen uitsluiten via Cruks. Ik ga maandag mijn bank bellen voor een gokblokkade. Ik ga deze week contact opnemen met OpenOverGokken. Ik weet dat het meer is dan dat. Maar dit zijn de eerste drie dingen."</p>
 <p>Concrete stappen, geen beloftes. Wat je gaat doen, niet wie je gaat zijn.</p>
 <h2>De eerste 48 uur na de ontdekking</h2>
 <p>Hier is wat er feitelijk moet gebeuren.</p>

@@ -10,7 +10,7 @@ FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght
 
 NAV = '''<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'''
 
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
@@ -101,7 +101,7 @@ body1 = """<p>Je hebt het al honderd keer gedacht. Misschien wel duizend.</p>
 <p>Vul ze in. Sport. Lopen. Klussen. Lezen. Bellen met iemand. Het maakt niet uit wat. Het maakt uit dat het iets is.</p>
 <p><strong>Drie: praat met iemand.</strong></p>
 <p>Eén iemand. Dat is genoeg om te beginnen.</p>
-<p>Een partner. Een broer. Een goede vriend. Een huisarts. Een hulpverlener bij Jellinek of Tactus. De Nationale Hulplijn Gokken op <strong>0800-1995</strong> (gratis, anoniem, 24/7).</p>
+<p>Een partner. Een broer. Een goede vriend. Een huisarts. Een hulpverlener bij Jellinek of Tactus. OpenOverGokken op <strong>0800-2400022</strong> (gratis, anoniem, 24/7).</p>
 <p>Geheimhouding houdt verslaving in stand. Eén eerlijk gesprek breekt dat open. Je hoeft het niet groots te maken. Eén zin is genoeg: "Ik heb een gokprobleem en ik wil ervan af."</p>
 <p>Dat is de moeilijkste zin die je ooit zult zeggen. En de belangrijkste.</p>
 
@@ -137,7 +137,7 @@ body1 = """<p>Je hebt het al honderd keer gedacht. Misschien wel duizend.</p>
 <li>Je werk of opleiding eronder lijdt</li>
 </ul>
 <p>Dat hoeft geen jarenlange therapie te zijn. Eén intake bij Jellinek of Tactus geeft je al richting. Beide hebben gespecialiseerde gokverslaving-programma's. De zorgverzekering vergoedt het meestal volledig.</p>
-<p>Geen wachtlijst die je trekt? De Nationale Hulplijn Gokken: <strong>0800-1995</strong>. Gratis. Anoniem. 24 uur per dag. Eén telefoontje en je weet waar je terecht kunt.</p>
+<p>Geen wachtlijst die je trekt? OpenOverGokken: <strong>0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag. Eén telefoontje en je weet waar je terecht kunt.</p>
 <p>Dit is geen falen. Dit is volwassenheid.</p>
 
 <h2>Wat het oplevert (en waarom het de moeite waard is)</h2>
@@ -243,7 +243,7 @@ body2 = """<p>Je leest dit artikel om een reden.</p>
 <h2>Wat als je dit herkent? Vier stappen.</h2>
 <p>Adem uit. Echt. Doe het even.</p>
 <p>Dit is het moment waarop het beter wordt. Niet vanzelf. Maar wel onomkeerbaar, als je nu iets doet.</p>
-<p><strong>Stap 1.</strong> Praat met iemand. Eén iemand. Vandaag of morgen. De Nationale Hulplijn Gokken op <strong>0800-1995</strong> is een goede plek als je geen idee hebt waar te beginnen. Anoniem, gratis, 24/7.</p>
+<p><strong>Stap 1.</strong> Praat met iemand. Eén iemand. Vandaag of morgen. OpenOverGokken op <strong>0800-2400022</strong> is een goede plek als je geen idee hebt waar te beginnen. Anoniem, gratis, 24/7.</p>
 <p><strong>Stap 2.</strong> Sluit jezelf uit via Cruks. cruks.nl. Tien minuten. Geen Nederlandse legale gokwebsite kan je dan nog binnenlaten.</p>
 <p><strong>Stap 3.</strong> Vraag bij je bank een gokblokkade aan. Bel ze.</p>
 <p><strong>Stap 4.</strong> Maak een afspraak bij Jellinek, Tactus of een andere gespecialiseerde verslavingszorg. Of begin met een zelfgeleid platform zoals Afterbetting om je dagelijkse structuur op te bouwen, eventueel naast professionele hulp.</p>
@@ -253,7 +253,7 @@ body2 = """<p>Je leest dit artikel om een reden.</p>
 <p>Misschien lees je dit niet voor jezelf. Misschien herken je je partner, kind, broer, ouder.</p>
 <p>Dan zijn de signalen vaak nog moeilijker te zien. Want jij ziet niet alles. Maar je voelt het wel.</p>
 <p>Voorzichtige tip: confronteer niet vanuit boosheid. Zelfs als boosheid terecht is. Verslaving en schaamte zijn een vergrendeld koppel. Aanvallen versterkt de schaamte, en daarmee de verslaving.</p>
-<p>Wat wel werkt: zorg voor jezelf eerst. Bel de Nationale Hulplijn Gokken voor advies hoe je het gesprek kunt voeren. En weet: je kunt niet stoppen voor iemand anders. Alleen zij zelf kunnen dat. Jij kunt wel kaders stellen, eerlijk zijn over de impact, en de deur openhouden voor het gesprek.</p>
+<p>Wat wel werkt: zorg voor jezelf eerst. Bel OpenOverGokken voor advies hoe je het gesprek kunt voeren. En weet: je kunt niet stoppen voor iemand anders. Alleen zij zelf kunnen dat. Jij kunt wel kaders stellen, eerlijk zijn over de impact, en de deur openhouden voor het gesprek.</p>
 
 <h2>Het belangrijkste</h2>
 <p>Eén ding tot slot.</p>
@@ -336,7 +336,7 @@ body3 = """<p>Je hebt besloten te stoppen.</p>
 <p>Wat doe je?</p>
 <p><strong>Niet vechten.</strong> Cravings duren tussen de 5 en 30 minuten als je ze niet voedt. Ja, echt. Cravings zijn als een golf: ze komen op, ze pieken, ze zakken weer. Je hoeft ze niet te overwinnen. Je hoeft ze alleen te overleven.</p>
 <p><strong>Verander van omgeving.</strong> Sta op. Loop naar buiten. Andere kamer. Andere bezigheid. Beweeg.</p>
-<p><strong>Bel iemand.</strong> De Nationale Hulplijn Gokken: <strong>0800-1995</strong>. Gratis. Anoniem. 24/7. Geen oordeel. Eén keer praten en de craving zakt.</p>
+<p><strong>Bel iemand.</strong> OpenOverGokken: <strong>0800-2400022</strong>. Gratis. Anoniem. 24/7. Geen oordeel. Eén keer praten en de craving zakt.</p>
 <p><strong>Drink water. Eet iets.</strong> Lichaam reset.</p>
 <p>Na 30 minuten ben je er doorheen. En je hebt iets bewezen aan jezelf.</p>
 

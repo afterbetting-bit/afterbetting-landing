@@ -3,7 +3,7 @@ CSS = open("nl/blog/stoppen-met-gokken.html").read().split("<style>")[1].split("
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 slug = "cruks-omzeilen-wat-nu"
@@ -70,7 +70,7 @@ body = """<p>Even iets uitspreken.</p>
 <p>Lees ook: <a href="/nl/blog/gokken-aan-je-familie-vertellen">Gokken aan je familie of partner vertellen</a>.</p>
 <p><strong>Laag 4: professionele hulp, niet later, deze maand.</strong></p>
 <p>Je situatie is voorbij het stadium van "zelf-aanpak". Niet uit gebrek aan kracht, maar omdat de combinatie van Cruks plus omzeilen aangeeft dat je een sterk patroon hebt dat begeleiding nodig heeft.</p>
-<p>Bel Jellinek, Tactus, of een regionale verslavingszorginstelling. Of begin met de huisarts en vraag verwijzing. Of bel de Nationale Hulplijn Gokken op 0800-1995 voor een eerste gesprek. Anoniem.</p>
+<p>Bel Jellinek, Tactus, of een regionale verslavingszorginstelling. Of begin met de huisarts en vraag verwijzing. Of bel OpenOverGokken op 0800-2400022 voor een eerste gesprek. Anoniem.</p>
 <p>Een hulpverlener die specifiek werkt met gokverslaving kan met je een terugvalpreventieplan opstellen. Dat is praktisch werk. Je triggers in kaart brengen. Je momenten in kaart brengen. Wat te doen als de drang komt.</p>
 <p>Dat is geen praatgroep met meelevende gezichten. Dat is concreet werk dat verschil maakt.</p>
 <p><strong>Laag 5: tijdsstructuur.</strong></p>

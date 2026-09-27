@@ -7,7 +7,7 @@ CSS = """*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--c
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '''<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'''
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 def page(lang, title, desc, canonical, hreflangs, schema_json, hero, body, related_html, cta_title, cta_desc):
@@ -314,7 +314,7 @@ body7 = """<p>Hier is het paradoxale.</p>
 
 <h2>Stap 2. Bel iemand die je kan helpen</h2>
 <p>Twee soorten mensen.</p>
-<p><strong>Eén voor het gokken.</strong> Een huisarts. De Nationale Hulplijn Gokken (<strong>0800-1995</strong>, gratis, anoniem, 24/7). Of een aanmelding bij Jellinek of Tactus voor verslavingszorg.</p>
+<p><strong>Eén voor het gokken.</strong> Een huisarts. OpenOverGokken (<strong>0800-2400022</strong>, gratis, anoniem, 24/7). Of een aanmelding bij Jellinek of Tactus voor verslavingszorg.</p>
 <p><strong>Eén voor het geld.</strong> Je gemeente, voor schuldhulpverlening. NVVK.nl voor erkende schuldhulpverleners. Geldfit.nl voor een geldcoach. Soms je werkgever, want veel werkgevers hebben tegenwoordig een vertrouwenspersoon of regeling voor financiële problemen.</p>
 <p>Beide gesprekken zijn moeilijk. Beide gesprekken halen je vooruit.</p>
 <p>Probeer ze allebei deze week te voeren. Niet allebei vandaag, dat is te zwaar. Wel deze week.</p>
@@ -352,7 +352,7 @@ body7 = """<p>Hier is het paradoxale.</p>
 <p>Hoe je ermee omgaat, bepaalt het verschil.</p>
 <p><strong>Erken hem.</strong> Niet wegduwen. Erkennen. "Ik voel nu een sterke drang om te gokken." Hardop of in je hoofd. Naam geven aan iets neemt de helft van zijn macht weg.</p>
 <p><strong>Wacht 30 minuten.</strong> Cravings duren tussen 5 en 30 minuten als je ze niet voedt. Verander van omgeving. Loop. Bel iemand. Drink water. De golf komt op, piekt, en zakt.</p>
-<p><strong>Bel als het nodig is.</strong> <strong>0800-1995</strong>, Nationale Hulplijn Gokken. Anoniem. Geen oordeel.</p>
+<p><strong>Bel als het nodig is.</strong> <strong>0800-2400022</strong>, OpenOverGokken. Anoniem. Geen oordeel.</p>
 <p><strong>Stuur jezelf niet de afgrond in.</strong> Een terugval is niet het einde. Het is informatie. Wat ging er aan vooraf? Welke trigger was er? Wat had je anders kunnen doen?</p>
 
 <h2>Het gevoel dat je zoekt</h2>

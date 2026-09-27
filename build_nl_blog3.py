@@ -7,7 +7,7 @@ CSS = """*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--c
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '''<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'''
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 def page(lang, title, desc, canonical, hreflangs, schema_json, hero, body, related_html, cta_title, cta_desc):
@@ -137,8 +137,8 @@ body8 = """<p>Je hebt het al maanden in je hoofd. Misschien jaren.</p>
 <p><strong>Twee: niets verzwijgen wat ze later zelf gaan ontdekken.</strong></p>
 <p>Schulden? Vertellen. Een tweede rekening? Vertellen. Geld dat van iemand was? Vertellen.</p>
 <p>Wat ze nu horen is zwaar. Wat ze later zelf ontdekken, breekt vertrouwen op een manier die nog moeilijker te repareren is.</p>
-<p><strong>Drie: de Nationale Hulplijn Gokken noemen.</strong></p>
-<p>Niet voor jou alleen. Voor hen. Familieleden van mensen met een gokverslaving kunnen ook bellen naar <strong>0800-1995</strong> (gratis, anoniem, 24/7). Of bij Anonieme Gokkers naar de Gam-Anon groepen voor familie.</p>
+<p><strong>Drie: OpenOverGokken noemen.</strong></p>
+<p>Niet voor jou alleen. Voor hen. Familieleden van mensen met een gokverslaving kunnen ook bellen naar <strong>0800-2400022</strong> (gratis, anoniem, 24/7). Of bij Anonieme Gokkers naar de Gam-Anon groepen voor familie.</p>
 <p>Geef ze die optie. Hun pijn is ook reëel. Ook zij hebben hulp nodig.</p>
 
 <h2>Wat je niet doet, ook niet als het zwaar wordt</h2>
@@ -360,7 +360,7 @@ body10 = """<p>Het is gebeurd.</p>
 <p>Als je je Cruks-aanmelding ergens hebt omzeild, sluit dan opnieuw. Als je je gokblokkade bij de bank had opgeheven, vraag hem opnieuw aan. Als je apps had teruggezet, verwijder ze.</p>
 <p>Direct, vandaag. Niet uitstellen.</p>
 <p><strong>Stap 2: vertel het iemand. Eén iemand.</strong></p>
-<p>Een partner. Een ouder. Een vriend. Een hulpverlener. De Nationale Hulplijn Gokken op <strong>0800-1995</strong> (gratis, anoniem, 24/7).</p>
+<p>Een partner. Een ouder. Een vriend. Een hulpverlener. OpenOverGokken op <strong>0800-2400022</strong> (gratis, anoniem, 24/7).</p>
 <p>Schaamte leeft in stilte. Eén eerlijk gesprek breekt zijn kracht. Niet voor altijd. Wel voor vandaag.</p>
 <p><strong>Stap 3: begrijp wat eraan vooraf ging.</strong></p>
 <p>Niet om jezelf te kwellen. Om informatie te krijgen.</p>

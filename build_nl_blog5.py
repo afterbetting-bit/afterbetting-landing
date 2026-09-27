@@ -7,7 +7,7 @@ CSS = """*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--c
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '''<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'''
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 def page(lang, title, desc, canonical, hreflangs, schema_json, hero, body, related_html, cta_title, cta_desc):
@@ -158,7 +158,7 @@ body14 = """<p>Even iets uitspreken wat in je hoofd zit.</p>
 
 <h2>Wanneer hulp inschakelen?</h2>
 <p>Voor sportgokken gelden dezelfde regels als voor andere gokvormen.</p>
-<p>Bel de Nationale Hulplijn Gokken: <strong>0800-1995</strong>. Gratis, anoniem, 24/7. Een eerste gesprek geeft je richting.</p>
+<p>Bel OpenOverGokken: <strong>0800-2400022</strong>. Gratis, anoniem, 24/7. Een eerste gesprek geeft je richting.</p>
 <p>Of neem contact op met Jellinek, Tactus, Brijder, Iriszorg of een andere verslavingszorgaanbieder. De meeste hebben specifieke programma's voor gokverslaving, en zien sportgokken steeds vaker als hoofdreden voor aanmelding.</p>
 <p>Schaamte is hier extra zwaar omdat sportgokken zo "normaal" is gemaakt door de industrie. Doorbreek die schaamte. Je bent niet de eerste die belt. Je bent niet de laatste.</p>
 

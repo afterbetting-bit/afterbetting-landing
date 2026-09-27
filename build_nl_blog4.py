@@ -7,7 +7,7 @@ CSS = """*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--c
 GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-BC3QG79LQ0");</script>'
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">'
 NAV = '''<nav><a href="/nl/" class="logo">after<span>betting</span></a><div class="nav-links"><a href="/nl/#how">Hoe het werkt</a><a href="/nl/#features">Functies</a><a href="/nl/#pricing">Prijzen</a><a href="/nl/blog">Blog</a><a href="https://app.afterbetting.com/login">Inloggen</a></div><a href="https://app.afterbetting.com/onboarding" class="btn">Begin gratis</a></nav>'''
-CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel de <strong>Nationale Hulplijn Gokken: 0800-1995</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
+CRISIS = '<div class="crisis-footer"><p>Zit je nu in crisis? Bel <strong>OpenOverGokken: 0800-2400022</strong>. Gratis. Anoniem. 24 uur per dag.</p></div>'
 FOOTER = '<footer><p>&copy; 2026 Afterbetting &middot; <a href="/nl/">Home</a> <a href="/nl/blog">Blog</a> <a href="/nl/about">Over ons</a> <a href="https://app.afterbetting.com/privacy">Privacy</a> <a href="https://app.afterbetting.com/terms">Voorwaarden</a> <a href="mailto:info@afterbetting.com">Contact</a></p><p style="margin-top:.5rem">Geen medische dienst. Neem contact op met een erkend professional voor klinische ondersteuning.</p></footer>'
 
 def page(lang, title, desc, canonical, hreflangs, schema_json, hero, body, related_html, cta_title, cta_desc):
@@ -140,7 +140,7 @@ body11 = """<p>Je hebt erover gehoord. Cruks. Zelfuitsluiting. Een knop op een w
 <h2>Wat doe je als je toch een drang voelt?</h2>
 <p>Cruks geeft je een muur. De drang kruipt soms toch over de muur.</p>
 <p><strong>Wacht 30 minuten.</strong> Cravings duren tussen 5 en 30 minuten. Verander van omgeving. Loop. Bel iemand. De golf zakt.</p>
-<p><strong>Bel de Nationale Hulplijn Gokken: 0800-1995.</strong> Gratis, anoniem, 24/7. Eén keer praten en de impuls neemt af.</p>
+<p><strong>Bel OpenOverGokken: 0800-2400022.</strong> Gratis, anoniem, 24/7. Eén keer praten en de impuls neemt af.</p>
 <p><strong>Open je app of journaal.</strong> Schrijf op wat je voelt. Vijf regels. Niet om het op te lossen. Om het uit je hoofd te halen.</p>
 <p><strong>Onthoud waarom je dit doet.</strong> Lees terug wat je op dag 1 schreef. Je hebt al een muur gebouwd. De muur staat. Je hoeft alleen niet te proberen erover te klimmen.</p>
 
