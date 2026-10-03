@@ -88,6 +88,9 @@
     <loc>https://afterbetting.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog"/>
   </url>
 
   <url>
@@ -95,6 +98,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/wat-doet-gokken-met-je-hersenen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
   </url>
 
   <url>
@@ -102,6 +108,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
   </url>
 
   <url>
@@ -109,6 +118,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/dagelijkse-gewoonten-na-gokverslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/daily-habits-that-replace-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/daily-habits-that-replace-gambling"/>
   </url>
 
   <url>
@@ -123,6 +135,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/zelfuitsluiting-gokken-werkt-het"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/does-self-exclusion-work-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/does-self-exclusion-work-gambling"/>
   </url>
 
   <url>
@@ -130,6 +145,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-en-identiteit"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-identity-loss"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-identity-loss"/>
   </url>
 
   <url>
@@ -151,6 +169,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-aan-je-familie-vertellen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem"/>
   </url>
 
   <url>
@@ -172,6 +193,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/slaapproblemen-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/sleep-after-stopping-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/sleep-after-stopping-gambling"/>
   </url>
 
   <url>
@@ -179,6 +203,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/sportgokken-verslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/sports-betting-addiction-quit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/sports-betting-addiction-quit"/>
   </url>
 
   <url>
@@ -186,6 +213,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/terugval-na-gokverslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-to-do-after-gambling-relapse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-to-do-after-gambling-relapse"/>
   </url>
 
   <url>
@@ -193,6 +223,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-to-do-instead-of-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-to-do-instead-of-gambling"/>
   </url>
 
   <url>
@@ -200,6 +233,9 @@
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/sneeuwbalmethode-gokschulden"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/snowball-debt-payoff-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/snowball-debt-payoff-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/blog/avalanche-debt-payoff-gambling</loc>
@@ -212,8 +248,8 @@
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog"/>
   </url>
 
@@ -240,8 +276,8 @@
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
   </url>
 
@@ -250,8 +286,8 @@
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/wat-doet-gokken-met-je-hersenen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-happens-to-your-brain-when-you-stop-gambling"/>
   </url>
 
@@ -270,7 +306,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/sneeuwbalmethode-gokschulden"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/sneeuwbalmethode-gokschulden"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/snowball-debt-payoff-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/snowball-debt-payoff-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/hoe-stop-ik-met-gokken-met-schulden</loc>
@@ -287,7 +324,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-aan-je-familie-vertellen"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/gokken-aan-je-familie-vertellen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/gokverslaving-en-identiteit</loc>
@@ -295,7 +333,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-en-identiteit"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/gokverslaving-en-identiteit"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-identity-loss"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-identity-loss"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/terugval-na-gokverslaving</loc>
@@ -303,7 +342,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/terugval-na-gokverslaving"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/terugval-na-gokverslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-to-do-after-gambling-relapse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-to-do-after-gambling-relapse"/>
   </url>
 
   <url>
@@ -312,7 +352,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/zelfuitsluiting-gokken-werkt-het"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/zelfuitsluiting-gokken-werkt-het"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/does-self-exclusion-work-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/does-self-exclusion-work-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/slaapproblemen-stoppen-met-gokken</loc>
@@ -320,7 +361,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/slaapproblemen-stoppen-met-gokken"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/slaapproblemen-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/sleep-after-stopping-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/sleep-after-stopping-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken</loc>
@@ -328,7 +370,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/hoe-vul-ik-mijn-tijd-zonder-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/what-to-do-instead-of-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/what-to-do-instead-of-gambling"/>
   </url>
 
   <url>
@@ -337,7 +380,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/sportgokken-verslaving"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/sportgokken-verslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/sports-betting-addiction-quit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/sports-betting-addiction-quit"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/dagelijkse-gewoonten-na-gokverslaving</loc>
@@ -345,7 +389,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/dagelijkse-gewoonten-na-gokverslaving"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/dagelijkse-gewoonten-na-gokverslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/daily-habits-that-replace-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/daily-habits-that-replace-gambling"/>
   </url>
 
   <url>
@@ -354,7 +399,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/salaris-vergokt-wat-nu"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/salaris-vergokt-wat-nu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambled-away-paycheck-what-now"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambled-away-paycheck-what-now"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/partner-heeft-mijn-gokken-ontdekt</loc>
@@ -362,7 +408,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/partner-heeft-mijn-gokken-ontdekt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/partner-heeft-mijn-gokken-ontdekt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/partner-found-out-about-my-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/partner-found-out-about-my-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/hoe-lang-duurt-herstel-gokverslaving</loc>
@@ -370,7 +417,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/hoe-lang-duurt-herstel-gokverslaving"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/hoe-lang-duurt-herstel-gokverslaving"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-long-gambling-recovery-takes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-long-gambling-recovery-takes"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/geld-terugvragen-online-casino</loc>
@@ -411,8 +459,8 @@
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokverslaving-symptomen-en-kenmerken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs"/>
   </url>
   <url>
@@ -420,8 +468,8 @@
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
   </url>
   <url>
@@ -438,8 +486,8 @@
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-depressie-en-angst"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-depression-and-anxiety"/>
   </url>
   <url>
