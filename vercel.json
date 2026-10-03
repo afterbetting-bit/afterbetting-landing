@@ -12,6 +12,11 @@
       ]
     },
     {
+      "source": "/nl/blog/gokverslaving-herkennen",
+      "destination": "/nl/blog/gokverslaving-symptomen-en-kenmerken",
+      "permanent": true
+    },
+    {
       "source": "/onboarding",
       "destination": "https://app.afterbetting.com/onboarding",
       "permanent": true
