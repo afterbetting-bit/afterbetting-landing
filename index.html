@@ -28,7 +28,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Afterbetting","url":"https://afterbetting.com","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"Afterbetting is a gambling recovery app and self-guided platform for people who want to stop gambling. Features include a gambling-free streak tracker, guided daily journal, habit builder, financial recovery dashboard, support circle, and AI Anchor companion. Built by a founder with 8 years of personal gambling addiction experience and 2 years in recovery. Available worldwide in English, Dutch, German, French, and Spanish.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"featureList":["Recovery streak tracker","Daily journal with 100+ guided prompts","Habit builder","Financial recovery dashboard","Debt repayment tracker","Savings goals","AI Anchor recovery companion","Crisis support","Support circle","Weekly email report","Milestone celebrations"],"inLanguage":["en","nl","de","fr","es"],"availableOnDevice":"Web browser","isAccessibleForFree":true}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Afterbetting free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. The free plan includes your recovery streak, 3 journal prompts per week, 3 habit slots, and a basic dashboard. No credit card required."}},{"@type":"Question","name":"How does Afterbetting help me stop gambling?","acceptedAnswer":{"@type":"Answer","text":"Afterbetting gives you daily structure through a recovery streak, guided journal prompts, habit tracking, and financial tools. Available 24/7."}},{"@type":"Question","name":"Is this a medical service?","acceptedAnswer":{"@type":"Answer","text":"No. Afterbetting is not a medical service. If you are in crisis, please contact a licensed professional or a gambling helpline in your country."}},{"@type":"Question","name":"Which countries is Afterbetting available in?","acceptedAnswer":{"@type":"Answer","text":"Afterbetting is available worldwide in any browser, on desktop and mobile."}},{"@type":"Question","name":"What makes Afterbetting different from other apps?","acceptedAnswer":{"@type":"Answer","text":"Most apps track your streak and stop there. Afterbetting combines daily journaling, habit building, financial recovery tracking, a support circle, and an AI companion in one warm, private platform."}},{"@type":"Question","name":"Can I use Afterbetting alongside professional help?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Afterbetting works well alongside therapy, Gamblers Anonymous, or any other support. Many users combine it with professional help as their daily accountability tool."}}]}</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BC3QG79LQ0"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BC3QG79LQ0');</script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());if(/^(www\.)?afterbetting\.com$/.test(location.hostname))gtag('config','G-BC3QG79LQ0');</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -159,7 +159,7 @@
     <a href="/about">About</a>
     <a rel="noopener noreferrer" href="https://app.afterbetting.com/login">Sign in</a>
   </div>
-  <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=nav" class="btn">Start free</a>
+  <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'nav',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" class="btn">Start free</a>
 </nav>
 
 <section class="hero">
@@ -168,14 +168,14 @@
     <h1>You placed your <em>last bet.</em><br>Now rebuild.</h1>
     <p class="hero-sub">Most people who stop gambling feel lost, in debt, and without direction. Afterbetting gives you a private daily structure to stay clean, rebuild your finances, and feel like yourself again. Starting today.</p>
     <div class="ctas">
-      <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=hero" class="btn">Start free today</a>
+      <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'hero',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" class="btn">Start free today</a>
       <a rel="noopener noreferrer" href="https://app.afterbetting.com/login" class="btn-text">Sign in</a>
     </div>
     <p class="note">No credit card. No time limit. Available worldwide.</p>
     <div class="calc">
       <div class="calc-label">How much do you spend on gambling per week?</div>
       <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
-      <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=calculator" id="calc-cta" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
+      <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'calculator',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" id="calc-cta" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
     </div>
     <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;var y=Math.round(w*52);document.getElementById("yearly").textContent="€"+y.toLocaleString();var btn=document.getElementById("calc-cta");if(btn){btn.textContent=y>0?"Save €"+y.toLocaleString()+" this year":"Start saving";}}</script>
   </div>
@@ -250,7 +250,7 @@
       <div><div class="how-num">03</div><div class="how-title">Watch your life rebuild</div><p class="how-desc">Your finances recover, your mindset shifts, and your streak grows. Afterbetting tracks every day you stay gambling-free and celebrates every milestone with you.</p></div>
     </div>
     <div class="section-cta">
-      <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=how_it_works" class="btn">Start free today</a>
+      <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'how_it_works',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" class="btn">Start free today</a>
       <p class="section-note">No credit card required</p>
     </div>
   </div>
@@ -339,7 +339,7 @@
           <li><span class="check">&#10003;</span> Basic dashboard</li>
           <li><span class="check">&#10003;</span> Crisis button</li>
         </ul>
-        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_free" class="plan-cta outline">Start free now</a>
+        <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'pricing_free',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" class="plan-cta outline">Start free now</a>
         <p class="plan-note">No credit card required</p>
       </div>
       <div class="plan featured">
@@ -357,7 +357,7 @@
           <li><span class="check">&#10003;</span> Mood analytics</li>
           <li><span class="check">&#10003;</span> Weekly email report</li>
         </ul>
-        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=yearly" id="cta-progress-en" class="plan-cta filled">Get Progress</a>
+        <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'pricing_progress',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding?billing=yearly" id="cta-progress-en" class="plan-cta filled">Get Progress</a>
       </div>
       <div class="plan">
         <div class="plan-tier">Premium</div>
@@ -372,7 +372,7 @@
           <li><span class="check">&#10003;</span> Financial goals and milestone tracking</li>
           <li><span class="check">&#10003;</span> Priority email support</li>
         </ul>
-        <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=yearly" id="cta-premium-en" class="plan-cta outline">Get Premium</a>
+        <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'pricing_premium',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding?billing=yearly" id="cta-premium-en" class="plan-cta outline">Get Premium</a>
       </div>
     </div>
     <script>
@@ -393,15 +393,15 @@
           mb.setAttribute("aria-pressed","true");yb.setAttribute("aria-pressed","false");
           pp.textContent=euro+"9.99";ppe.textContent="/month";pb.textContent="Billed monthly";
           pm.textContent=euro+"14.99";pme.textContent="/month";pmb.textContent="Billed monthly";
-          ctaP.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=monthly";
-          ctaM.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=monthly";
+          ctaP.href="https://app.afterbetting.com/onboarding?billing=monthly";
+          ctaM.href="https://app.afterbetting.com/onboarding?billing=monthly";
         } else {
           yb.classList.add("active");mb.classList.remove("active");
           yb.setAttribute("aria-pressed","true");mb.setAttribute("aria-pressed","false");
           pp.textContent=euro+"6.67";ppe.textContent="/month";pb.textContent=euro+"79.99 per year, billed upfront";
           pm.textContent=euro+"10.00";pme.textContent="/month";pmb.textContent=euro+"119.99 per year, billed upfront";
-          ctaP.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_progress&billing=yearly";
-          ctaM.href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=pricing_premium&billing=yearly";
+          ctaP.href="https://app.afterbetting.com/onboarding?billing=yearly";
+          ctaM.href="https://app.afterbetting.com/onboarding?billing=yearly";
         }
       }
     </script>
@@ -432,7 +432,7 @@
   <div class="section-inner" style="text-align:center;max-width:680px;margin:0 auto">
     <h2>You don't have to figure this out alone.</h2>
     <p style="font-size:1.05rem;color:var(--mid);font-weight:300;line-height:1.8;margin:1rem 0 2rem">Start free. No credit card. No time limit. Begin your recovery the moment you click below.</p>
-    <a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=final_cta" class="btn" style="font-size:1rem;padding:.85rem 1.75rem">Start free today</a>
+    <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'final_cta',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding" class="btn" style="font-size:1rem;padding:.85rem 1.75rem">Start free today</a>
     <p class="section-note" style="margin-top:1rem">No credit card required</p>
   </div>
 </section>
@@ -499,6 +499,6 @@
   </div>
 </footer>
 
-<div class="sticky-cta"><a rel="noopener noreferrer" href="https://app.afterbetting.com/onboarding?utm_source=landing&utm_content=sticky">Start free today. No credit card needed</a></div>
+<div class="sticky-cta"><a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'sticky',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding">Start free today. No credit card needed</a></div>
 </body>
 </html>
