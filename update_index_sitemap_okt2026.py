@@ -4,11 +4,14 @@ PAIRS = [  # (nl-slug, en-slug, datum)
     ('goksites-blokkeren', 'block-gambling-sites-and-payments', '2026-10-11'),
     ('cruks-omzeilen-wat-nu', 'casino-not-on-gamstop', '2026-10-11'),
     ('stoppen-met-gokken-als-je-wint', 'stop-gambling-when-winning', '2026-10-11'),
+    ('drang-om-te-gokken', 'do-gambling-urges-go-away', '2026-10-11'),
 ]
-NL_CARDS = {'stoppen-met-gokken-als-je-wint': ('Stoppen', 'Stoppen met gokken als je wint', 'Het voelt als het slechtste moment om te stoppen. Het is het beste.', '11 oktober 2026', '7 min lezen'),
+NL_CARDS = {'drang-om-te-gokken': ('Drang', 'Drang om te gokken: wat je nu doet', 'Drang is een golf. Hij komt op, piekt en zakt. Zo kom je erdoorheen.', '11 oktober 2026', '7 min lezen'),
+            'stoppen-met-gokken-als-je-wint': ('Stoppen', 'Stoppen met gokken als je wint', 'Het voelt als het slechtste moment om te stoppen. Het is het beste.', '11 oktober 2026', '7 min lezen'),
             'goksites-blokkeren': ('Tools', 'Goksites blokkeren: telefoon, laptop en je bank', 'Wat er echt kan op je telefoon, je laptop en bij je bank. En wat niet bestaat, al lees je online van wel.', '11 oktober 2026', '9 min lezen'),
             'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
-EN_CARDS = {'stop-gambling-when-winning': ('Quitting', 'How to stop gambling when you are winning', 'It feels like the worst moment to stop. It is the best one. What to do with your winnings today.'),
+EN_CARDS = {'do-gambling-urges-go-away': ('Urges', 'Do gambling urges go away? What helps right now', 'An urge is a wave. It rises, peaks and falls. What to do in the next 15 minutes, and what changes over time.'),
+            'stop-gambling-when-winning': ('Quitting', 'How to stop gambling when you are winning', 'It feels like the worst moment to stop. It is the best one. What to do with your winnings today.'),
             'casino-not-on-gamstop': ('Crisis', 'Found a casino not on GamStop? Read this first', 'What it means that you found a way around your own exclusion. And what to do tonight and tomorrow.'),
             'block-gambling-sites-and-payments': ('Tools', 'How to block gambling sites, apps and bank payments', 'What works on your phone, your laptop and your bank card. Which UK banks have a gambling block, and where the gaps are.'),
             'cancel-gamstop-early': ('Crisis', 'Can you cancel GamStop early? Read this first', 'The GamStop rules, explained honestly. And what to do if the urge to gamble is strong right now.')}
