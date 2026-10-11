@@ -532,4 +532,22 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-vriend-is-gokverslaafd"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/mijn-vriend-is-gokverslaafd"/>
   </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/cruks-opzeggen</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-opzeggen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/cancel-gamstop-early</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-opzeggen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
+  </url>
 </urlset>
