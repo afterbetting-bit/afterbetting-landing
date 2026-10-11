@@ -71,7 +71,7 @@ body = """<p>Eerst eerlijk.</p>
 <p><strong>Chargeback bij je bank.</strong> Als je met creditcard hebt gestort, kun je in beginsel een chargeback aanvragen bij je bank, op grond dat de transactie aan een ongeautoriseerde of illegale aanbieder ging. In de praktijk werkt dit zelden in Nederland voor stortingen die ouder zijn dan een paar maanden. Voor recente stortingen bij illegale aanbieders soms wel. Gewoon vragen kost niets.</p>
 <p><strong>Klacht bij de Kansspelautoriteit.</strong> De KSA neemt klachten aan over vergunde aanbieders die hun zorgplicht hebben geschonden. Een klacht leidt zelden tot directe terugbetaling, maar kan wel druk zetten op een aanbieder en kan onderdeel zijn van een dossier dat je later civielrechtelijk inzet. ksa.nl/klacht.</p>
 <p><strong>Klacht bij de aanbieder zelf.</strong> Schriftelijke klacht naar de klantenservice van de aanbieder. Soms bieden ze een schikking. Vaak niet. Geen kwaad om te proberen.</p>
-<p><strong>Schuldhulpverlening.</strong> Geen route om geld terug te krijgen, wel een route om met je huidige schuld om te gaan. Gemeente, NVVK-aangesloten schuldhulpverlening, of de Nationale Schuldenlijn op 0800-8115. Lees ook: <a href="/nl/blog/gokschuld-aflossen">Gokschuld aflossen, een eerlijk plan zonder valse beloftes</a>.</p>
+<p><strong>Schuldhulpverlening.</strong> Geen route om geld terug te krijgen, wel een route om met je huidige schuld om te gaan. Gemeente, NVVK-aangesloten schuldhulpverlening, of Geldfit op 0800-8115. Lees ook: <a href="/nl/blog/gokschuld-aflossen">Gokschuld aflossen, een eerlijk plan zonder valse beloftes</a>.</p>
 <h2>Waarvoor je oppast</h2>
 <p>Drie waarschuwingen.</p>
 <p><strong>Een: bedrijven die per direct geld beloven voor een fee vooraf.</strong></p>

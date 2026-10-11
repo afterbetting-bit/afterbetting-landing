@@ -74,7 +74,7 @@ body = """<p>Je staat waarschijnlijk in een keuken. Of op een wc. Of in de auto.
 <p>Hetzelfde voor energie, voor incassobureaus, voor wat dan ook. Bellen voordat het mis gaat is altijd beter dan negeren tot het wel mis gaat.</p>
 <p>Schaam je niet. Niet over de telefoon. Je hoeft niet te zeggen waarom. Je kunt zeggen dat je een onverwachte uitgave had en dat je een betalingsregeling vraagt.</p>
 <p><strong>Stap vier: hulp.</strong></p>
-<p>Als de gaten te groot zijn, ga naar de gemeente. Vraag om schuldhulpverlening. Of bel de Nationale Schuldenlijn op 0800-8115. Gratis.</p>
+<p>Als de gaten te groot zijn, ga naar de gemeente. Vraag om schuldhulpverlening. Of bel Geldfit op 0800-8115. Gratis.</p>
 <p>Schaam je niet. Schuldhulp bestaat voor mensen zoals jij. Letterlijk daarom is het opgericht.</p>
 <p>Lees ook: <a href="/nl/blog/gokschuld-aflossen">Gokschuld aflossen, een eerlijk plan zonder valse beloftes</a>.</p>
 <h2>Wat je tegen anderen zegt</h2>
