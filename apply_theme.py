@@ -15,10 +15,19 @@ def recolor(t):
 for js in ['consent.js', 'nav.js']:
     s0 = open(js, encoding='utf-8').read(); s1 = recolor(s0)
     if s1 != s0: open(js, 'w', encoding='utf-8').write(s1)
+# Geen emoji op de site: tekens weg, lege icoonvakjes ook.
+EMOJI = re.compile('[\U0001F300-\U0001FAFF\u2705\u2728\u2B50\u2600-\u26FF\u2700-\u2712\u2714-\u27BF]\ufe0f?\\s?')
+def no_emoji(t):
+    i = t.find('<body')
+    if i < 0: return t
+    head, body = t[:i], t[i:]
+    body = EMOJI.sub('', body)
+    body = re.sub(r'<(div|span) class="[a-z-]*icon[a-z-]*"[^>]*>\s*</\1>', '', body)
+    return head + body
 n = 0
 for f in sorted(glob.glob('**/*.html', recursive=True)):
     s = open(f, encoding='utf-8').read()
-    t = recolor(OLD_FONT.sub(NEW_FONT, s))
+    t = no_emoji(recolor(OLD_FONT.sub(NEW_FONT, s)))
     if THEME not in t:
         if t.count('</head>') == 1:
             t = t.replace('</head>', THEME + '\n</head>')

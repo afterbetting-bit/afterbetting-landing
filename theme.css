@@ -19,7 +19,6 @@
 }
 
 body, body *:not(svg):not(path):not(code):not(pre) { font-family: var(--font) !important; }
-body { font-feature-settings: 'tnum' 1; }
 
 h1, h2, h3, h4 { font-weight: 800 !important; letter-spacing: -0.03em !important; color: var(--ink); }
 h1 { line-height: 1.05 !important; }
@@ -70,3 +69,65 @@ footer a { color: var(--apricot) !important; }
 .quote p { font-weight: 500 !important; font-style: normal !important; }
 .price { font-weight: 800 !important; letter-spacing: -0.03em !important; }
 .price-period { font-weight: 400 !important; }
+
+/* App-preview: telefoons met voorbeeldschermen (verzonnen voorbeeldgegevens) */
+.ab-phone { --p-bg: #0F1A19; --p-surface: #172524; --p-raised: #1F302E; --p-line: #2A3D3A; --p-text: #ECF1EC; --p-muted: #93A69F; --p-apricot: #F4B97A; --p-good: #8ED1B5;
+  width: 300px; max-width: 100%; aspect-ratio: 390 / 800; box-sizing: border-box; background: var(--p-bg); color: var(--p-text);
+  border-radius: 40px; border: 8px solid #0A1110; box-shadow: 0 30px 80px rgba(15,26,25,.28); padding: 34px 18px 0; overflow: hidden;
+  display: flex; flex-direction: column; gap: 16px; text-align: left; font-size: 13px; line-height: 1.35; margin: 0 auto; position: relative; }
+.ab-phone * { box-sizing: border-box; }
+.ab-phone .p-date { color: var(--p-muted); font-size: 12px; }
+.ab-phone .p-big { font-size: 38px; line-height: 1; font-weight: 800; letter-spacing: -1.6px; }
+.ab-phone .p-sub { color: var(--p-muted); font-size: 14px; margin-top: 4px; }
+.ab-phone .p-strip { display: flex; align-items: flex-end; gap: 2px; height: 30px; }
+.ab-phone .p-strip i { flex: 1; border-radius: 2px; background: var(--p-good); display: block; }
+.ab-phone .p-strip i.t { background: var(--p-apricot); height: 30px !important; opacity: 1 !important; }
+.ab-phone .p-card { background: var(--p-surface); border-radius: 18px; padding: 14px; }
+.ab-phone .p-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-top: 1px solid var(--p-line); }
+.ab-phone .p-row span:last-child { color: var(--p-muted); }
+.ab-phone .p-h { font-weight: 700; font-size: 15px; display: flex; justify-content: space-between; margin-bottom: 8px; }
+.ab-phone .p-h span { font-weight: 400; color: var(--p-muted); font-size: 12px; }
+.ab-phone .p-moods { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 4px; margin-bottom: 4px; }
+.ab-phone .p-moods span { background: var(--p-raised); border-radius: 9px; text-align: center; padding: 8px 0; font-size: 11px; }
+.ab-phone .p-moods span.on { background: var(--p-apricot); color: var(--p-bg); font-weight: 700; }
+.ab-phone .p-two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ab-phone .p-num { font-size: 20px; font-weight: 700; letter-spacing: -.4px; }
+.ab-phone .p-num.g { color: var(--p-good); }
+.ab-phone .p-small { color: var(--p-muted); font-size: 11px; }
+.ab-phone .p-nav { margin-top: auto; margin-left: -18px; margin-right: -18px; background: #0B1413; border-top: 1px solid var(--p-raised);
+  display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); align-items: center; padding: 10px 6px 16px; font-size: 10px; color: var(--p-muted); text-align: center; }
+.ab-phone .p-nav b { justify-self: center; background: var(--p-apricot); color: var(--p-bg); border-radius: 20px; padding: 8px 12px; font-size: 12px; }
+.ab-phone .p-nav .on { color: var(--p-text); font-weight: 600; }
+.ab-phone .p-timer { font-size: 54px; font-weight: 800; letter-spacing: -2px; text-align: center; }
+.ab-phone .p-wave { display: flex; align-items: flex-end; gap: 3px; height: 40px; }
+.ab-phone .p-wave i { flex: 1; border-radius: 3px; background: var(--p-line); display: block; }
+.ab-phone .p-wave i.d { background: var(--p-apricot); }
+.ab-phone .p-btn { background: var(--p-apricot); color: var(--p-bg); border-radius: 12px; text-align: center; padding: 11px; font-weight: 700; }
+.ab-phone .p-btn.o { background: transparent; border: 1px solid var(--p-line); color: var(--p-text); font-weight: 500; }
+.ab-phone .p-chart { display: block; width: 100%; height: 70px; }
+.ab-phone .p-tabs { display: flex; gap: 5px; }
+.ab-phone .p-tabs span { background: var(--p-surface); border-radius: 14px; padding: 6px 10px; font-size: 11px; }
+.ab-phone .p-tabs span.on { background: var(--p-text); color: var(--p-bg); font-weight: 600; }
+.ab-phone .p-help { background: var(--p-raised); border-radius: 14px; padding: 12px; font-size: 12px; }
+.ab-phone .p-help strong { display: block; font-size: 13px; margin-bottom: 2px; }
+
+.hero-phone { display: flex; justify-content: center; align-items: center; }
+.app-preview { padding: 5rem 2rem; background: var(--ink); color: #ECF1EC; }
+.app-preview .ap-inner { max-width: 1100px; margin: 0 auto; }
+.app-preview h2 { color: #ECF1EC !important; font-size: 2.4rem; margin: 0 0 .75rem; }
+.app-preview .ap-lead { color: #93A69F; font-size: 1.1rem; max-width: 620px; margin: 0 0 3rem; line-height: 1.6; }
+.app-preview .ap-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.app-preview figure { margin: 0; }
+.app-preview figcaption { margin-top: 1.25rem; text-align: center; }
+.app-preview figcaption strong { display: block; color: #ECF1EC; font-size: 1.05rem; margin-bottom: .3rem; }
+.app-preview figcaption span { color: #93A69F; font-size: .92rem; line-height: 1.5; }
+.app-preview .ap-cta { margin-top: 3rem; text-align: center; }
+.app-preview .ap-cta a { display: inline-block; background: #F4B97A; color: #0F1A19; padding: .9rem 1.8rem; border-radius: 12px; font-weight: 700; text-decoration: none; }
+.app-preview .ap-cta p { color: #93A69F; font-size: .85rem; margin-top: .75rem; }
+.app-preview .ap-note { color: #93A69F; font-size: .8rem; text-align: center; margin-top: 1.5rem; }
+@media (max-width: 900px) {
+  .app-preview { padding: 3.5rem 1.25rem; }
+  .app-preview h2 { font-size: 1.9rem; }
+  .app-preview .ap-row { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 1.25rem; padding-bottom: 1rem; margin: 0 -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
+  .app-preview figure { flex: 0 0 78%; scroll-snap-align: center; }
+}
