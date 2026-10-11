@@ -11,8 +11,8 @@ T = {
             free_cta='Start free', free_note='No card needed',
             plus_desc='Everything in the app, without limits. Including your support circle.',
             plus_items=['Everything in Free', 'Unlimited journal and habits', 'Full money overview: debts, payoff plan and subscriptions', 'Insight into which habits go with better days', 'Support circle: a weekly update to people you trust'],
-            plus_cta='Try Plus free for 7 days', plus_note='No card needed for the trial. Cancel any time.',
-            m_price='€4.99', m_billed='Billed monthly', y_price='€3.33', y_billed='€39.99 a year, billed upfront', per='/month', badge='7 days free'),
+            plus_cta='Try Plus free for 7 days', plus_note='Same price in €, £ and $. No card needed for the trial. Cancel any time.',
+            m_price='4.99', m_billed='Billed monthly', y_price='3.33', y_billed='39.99 a year, billed upfront', per='/month', badge='7 days free'),
  'nl': dict(fn='setBilling', mid='toggle-monthly', yid='toggle-yearly', sfx='', aria='Kies betaalperiode',
             m='Per maand', y='Per jaar', save='4 maanden gratis per jaar',
             free='Gratis', free_price='Gratis', free_per='/altijd', free_billed='Geen kosten',
@@ -21,8 +21,8 @@ T = {
             free_cta='Begin gratis', free_note='Geen betaalgegevens nodig',
             plus_desc='Alles in de app, zonder grenzen. Ook je steunkring.',
             plus_items=['Alles uit Gratis', 'Onbeperkt dagboek en gewoontes', 'Volledig geldoverzicht: schulden, aflosplan en abonnementen', 'Inzicht in welke gewoontes bij betere dagen horen', 'Steunkring: een wekelijkse update aan wie je vertrouwt'],
-            plus_cta='Probeer Plus 7 dagen gratis', plus_note='Geen betaalgegevens nodig voor de proef. Altijd opzegbaar.',
-            m_price='€4,99', m_billed='Per maand betaald', y_price='€3,33', y_billed='€39,99 per jaar, vooruit betaald', per='/maand', badge='7 dagen gratis'),
+            plus_cta='Probeer Plus 7 dagen gratis', plus_note='Zelfde prijs in €, £ en $. Geen betaalgegevens nodig voor de proef. Altijd opzegbaar.',
+            m_price='4,99', m_billed='Per maand betaald', y_price='3,33', y_billed='39,99 per jaar, vooruit betaald', per='/maand', badge='7 dagen gratis'),
 }
 APP = 'https://app.afterbetting.com/onboarding'
 
@@ -50,8 +50,8 @@ def block(t):
       <div class="plan featured">
         <div class="plan-badge">{t['badge']}</div>
         <div class="plan-tier">Plus</div>
-        <div class="plan-price"><span class="price" id="price-plus{s}">{t['y_price']}</span> <span class="price-period">{t['per']}</span></div>
-        <div class="plan-billed" id="billed-plus{s}">{t['y_billed']}</div>
+        <div class="plan-price"><span class="price"><span class="ab-cur">€</span><span id="price-plus{s}">{t['y_price']}</span></span> <span class="price-period">{t['per']}</span></div>
+        <div class="plan-billed"><span class="ab-cur">€</span><span id="billed-plus{s}">{t['y_billed']}</span></div>
         <p class="plan-desc">{t['plus_desc']}</p>
         <ul class="plan-features">{li(t['plus_items'])}
         </ul>
@@ -60,6 +60,9 @@ def block(t):
       </div>
     </div>
     <script>
+      (function(){{var tz="",l=(navigator.language||"");try{{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""}}catch(e){{}}
+        var c=/^Europe\\/(London|Belfast|Guernsey|Jersey|Isle_of_Man)$/.test(tz)?"£":tz.indexOf("Europe/")===0?"€":tz?"$":/-GB$/i.test(l)?"£":/-US$/i.test(l)?"$":"€";
+        window.abCur=c;document.querySelectorAll(".ab-cur").forEach(function(e){{e.textContent=c}});}})();
       function {t['fn']}(mode){{
         var m=document.getElementById("{t['mid']}"),y=document.getElementById("{t['yid']}");
         var p=document.getElementById("price-plus{s}"),b=document.getElementById("billed-plus{s}"),c=document.getElementById("cta-plus{s}");
@@ -68,6 +71,7 @@ def block(t):
         m.setAttribute("aria-pressed",monthly?"true":"false");y.setAttribute("aria-pressed",monthly?"false":"true");
         p.textContent=monthly?"{t['m_price']}":"{t['y_price']}";
         b.textContent=monthly?"{t['m_billed']}":"{t['y_billed']}";
+        b.previousElementSibling.style.display=monthly?"none":"";
         c.href="{APP}?billing="+(monthly?"monthly":"yearly");
       }}
     </script>'''
@@ -79,11 +83,13 @@ for path, lang in (('index.html', 'en'), ('nl/index.html', 'nl')):
     s = s[:a] + block(T[lang]) + s[b:]
     if lang == 'en':
         s = s.replace('Try Progress free for 7 days</a><p>No card needed. After 7 days you choose: free plan or Progress.',
-                      'Try Plus free for 7 days</a><p>No card needed. After 7 days you choose: free or Plus, €4.99 a month.')
+                      'Try Plus free for 7 days</a><p>No card needed. After 7 days you choose: free or Plus, <span class="ab-cur">€</span>4.99 a month.')
     else:
         s = s.replace('Probeer Progress 7 dagen gratis</a><p>Geen betaalgegevens nodig. Na 7 dagen kies je zelf: gratis of Progress.',
-                      'Probeer Plus 7 dagen gratis</a><p>Geen betaalgegevens nodig. Na 7 dagen kies je zelf: gratis of Plus, €4,99 per maand.')
+                      'Probeer Plus 7 dagen gratis</a><p>Geen betaalgegevens nodig. Na 7 dagen kies je zelf: gratis of Plus, <span class="ab-cur">€</span>4,99 per maand.')
         s = s.replace('margin-left:.4rem;font-weight:500">Premium</span>', 'margin-left:.4rem;font-weight:500">Plus</span>')
+    s = s.replace('free or Plus, €4.99 a month.', 'free or Plus, <span class="ab-cur">€</span>4.99 a month.')
+    s = s.replace('gratis of Plus, €4,99 per maand.', 'gratis of Plus, <span class="ab-cur">€</span>4,99 per maand.')
     assert 'Progress' not in re.sub(r'Progress dashboard', '', s) and 'Premium' not in s, path
     assert not re.search(r'(?<![0-9])(9|14|79|119)[.,]99', s), path
     open(path, 'w', encoding='utf-8').write(s)
