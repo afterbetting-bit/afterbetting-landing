@@ -421,11 +421,12 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/casino-not-on-gamstop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/casino-not-on-gamstop"/>
   </url>
   <url>
     <loc>https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs</loc>
@@ -567,5 +568,14 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/goksites-blokkeren"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/block-gambling-sites-and-payments"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/block-gambling-sites-and-payments"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/casino-not-on-gamstop</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-omzeilen-wat-nu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/casino-not-on-gamstop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/casino-not-on-gamstop"/>
   </url>
 </urlset>
