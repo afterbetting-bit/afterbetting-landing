@@ -12,6 +12,11 @@
       ]
     },
     {
+      "source": "/blog/gambling-recovery-what-to-expect",
+      "destination": "/blog/how-long-gambling-recovery-takes",
+      "permanent": true
+    },
+    {
       "source": "/nl/blog/gokverslaving-herkennen",
       "destination": "/nl/blog/gokverslaving-symptomen-en-kenmerken",
       "permanent": true
