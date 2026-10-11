@@ -1,0 +1,72 @@
+/* Afterbetting huisstijl (okt 2026). Laadt na de stijl van elke pagina en zet kleuren en letter op één plek.
+   De site is licht (lezen), de app is donker. Kleurnamen blijven gelijk zodat bestaande pagina's werken. */
+:root {
+  --font: 'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --ink: #0F1A19;
+  --apricot: #F4B97A;
+  --clay: #0F1A19;
+  --clay-light: #DCE3DE;
+  --clay-bg: #F6EDE2;
+  --dark: #0F1A19;
+  --mid: #33443F;
+  --muted: #5A6E67;
+  --cream: #F6F8F5;
+  --warm: #ECF0EC;
+  --border: #DCE3DE;
+  --green: #23775B;
+  --green-bg: #E1F1EA;
+  --green-border: #B5DCCB;
+}
+
+body, body *:not(svg):not(path):not(code):not(pre) { font-family: var(--font) !important; }
+body { font-feature-settings: 'tnum' 1; }
+
+h1, h2, h3, h4 { font-weight: 800 !important; letter-spacing: -0.03em !important; color: var(--ink); }
+h1 { line-height: 1.05 !important; }
+h2 { line-height: 1.15 !important; letter-spacing: -0.025em !important; }
+h3, h4 { font-weight: 700 !important; letter-spacing: -0.015em !important; }
+h1 em, h2 em, h3 em { font-style: normal !important; color: inherit !important; }
+
+/* Logo: "after" vet, "betting" stil */
+.logo, .f-logo { font-weight: 800 !important; letter-spacing: -0.03em !important; }
+.logo span, .f-logo span { font-weight: 400 !important; color: inherit !important; opacity: 0.6; }
+
+/* Knoppen: donkere inkt met witte tekst. Hover iets lichter. */
+.btn, .cta-block a, .ab-sticky-btn { border-radius: 12px !important; font-weight: 600 !important; }
+.btn { background: var(--ink) !important; color: #FFFFFF !important; }
+.btn:hover, .cta-block a:hover { background: #22403A !important; }
+.ab-sticky { background: var(--ink) !important; }
+.ab-sticky-btn { background: var(--apricot) !important; color: var(--ink) !important; }
+.ab-sticky-btn:hover { background: #F8CFA3 !important; }
+
+/* Links in lopende tekst: inkt met een abrikoos onderstreping */
+.body a, article a { color: var(--ink) !important; text-decoration-color: var(--apricot) !important; text-decoration-thickness: 2px !important; }
+
+/* Donkere vlakken (CTA, footer) houden lichte tekst en een abrikoos accent */
+.cta-block { background: var(--ink) !important; border-radius: 20px !important; }
+.cta-block a { background: var(--apricot) !important; color: var(--ink) !important; }
+footer a { color: var(--apricot) !important; }
+
+/* Kaarten en kaders: rustiger randen, grotere hoeken */
+.rel-card, .callout { border-radius: 16px !important; }
+.rel-card:hover { border-color: var(--ink) !important; }
+.rel-card .t, .tag { text-transform: none !important; letter-spacing: 0 !important; }
+.crisis-footer strong { color: var(--ink) !important; }
+
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* Sectielabels zonder hoofdletters */
+.label { text-transform: none !important; letter-spacing: 0 !important; font-weight: 600 !important; color: var(--muted) !important; }
+
+/* Wat vroeger in de oude serif stond (inline), wordt een vette kop */
+[style*="Fraunces"] { font-weight: 700 !important; letter-spacing: -0.02em !important; font-style: normal !important; }
+[style*="Fraunces"][style*="italic"] { font-weight: 500 !important; }
+
+/* Klassen die de oude serif gebruikten: koppen en cijfers vet, citaten rustig */
+.blog-card h2, .card h2, .card-name, .cta h3, .cta-banner h2, .cta-block h3, .f-title, .hcontent h3, .how-title,
+.plan-tier, .rel-card h4, .related h3, .step h3, .week h3 { font-weight: 700 !important; letter-spacing: -0.02em !important; }
+.calc-amount, .how-num, .plan-price, .proof-stat, .stat .n, .stat-v { font-weight: 800 !important; letter-spacing: -0.03em !important; }
+.faq-q { font-weight: 600 !important; }
+.quote p { font-weight: 500 !important; font-style: normal !important; }
+.price { font-weight: 800 !important; letter-spacing: -0.03em !important; }
+.price-period { font-weight: 400 !important; }
