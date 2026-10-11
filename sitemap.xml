@@ -550,4 +550,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/cancel-gamstop-early"/>
   </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/goksites-blokkeren</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/goksites-blokkeren"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/goksites-blokkeren"/>
+  </url>
 </urlset>
