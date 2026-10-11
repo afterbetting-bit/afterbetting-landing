@@ -23,14 +23,14 @@
     box.id = 'ab-consent';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-label', nl ? 'Cookies' : 'Cookies');
-    box.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:1000;max-width:560px;margin:0 auto;background:#2C2420;color:#fff;border-radius:16px;padding:16px 18px;font-family:"DM Sans",sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)';
+    box.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:1000;max-width:560px;margin:0 auto;background:#0F1A19;color:#fff;border-radius:16px;padding:16px 18px;font-family:"DM Sans",sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)';
     var p = document.createElement('p');
     p.style.cssText = 'margin:0 0 12px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.9)';
     p.appendChild(document.createTextNode(t.text + ' '));
     var a = document.createElement('a');
     a.href = 'https://app.afterbetting.com/privacy';
     a.textContent = t.more;
-    a.style.cssText = 'color:#E8C4B2;text-decoration:underline;text-underline-offset:3px';
+    a.style.cssText = 'color:#F4B97A;text-decoration:underline;text-underline-offset:3px';
     p.appendChild(a);
     var row = document.createElement('div');
     row.style.cssText = 'display:flex;gap:8px';
