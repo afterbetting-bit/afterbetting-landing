@@ -269,7 +269,7 @@ Dit artikel gaat over die gedachte. En over hoe je stopt terwijl de schuld er no
 
 Ik heb ruim acht jaar gegokt. Aan het eind stond ik meer dan 40.000 euro in de min. Die gedachte, terugwinnen, heeft me lang aan het spelen gehouden.
 
-Wat hem uiteindelijk brak, was één simpel inzicht. Als ik het terugwon, zou ik het weer vergokken. Dat was geen theorie. Dat was precies wat er gebeurde als ik een keer won. De winst was nooit het einde. Het was de inzet voor de volgende keer.
+Wat hem uiteindelijk brak, was één simpel inzicht. Als ik het terugwon, zou ik het weer vergokken. Terugwinnen was dus geen oplossing. Het zou alleen de inzet voor de volgende keer worden.
 
 Pas toen ik dat echt zag, kon ik stoppen met zoeken naar die ene grote winst. En pas toen kon ik beginnen met wat wel werkt: aflossen.
 
