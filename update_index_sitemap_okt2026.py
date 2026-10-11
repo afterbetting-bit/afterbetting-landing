@@ -1,19 +1,24 @@
 # Sitemap en blogindexen bijwerken voor de artikelen van okt 2026. Veilig om opnieuw te draaien.
 PAIRS = [  # (nl-slug, en-slug, datum)
     ('cruks-opzeggen', 'cancel-gamstop-early', '2026-10-11'),
+    ('goksites-blokkeren', None, '2026-10-11'),  # EN-tegenhanger volgt
 ]
-NL_CARDS = {'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
+NL_CARDS = {'goksites-blokkeren': ('Tools', 'Goksites blokkeren: telefoon, laptop en je bank', 'Wat er echt kan op je telefoon, je laptop en bij je bank. En wat niet bestaat, al lees je online van wel.', '11 oktober 2026', '9 min lezen'),
+            'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
 EN_CARDS = {'cancel-gamstop-early': ('Crisis', 'Can you cancel GamStop early? Read this first', 'The GamStop rules, explained honestly. And what to do if the urge to gamble is strong right now.')}
 
 def entry(loc, nl, en, date):
+    if en is None:
+        return (f'  <url>\n    <loc>{loc}</loc>\n    <lastmod>{date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n'
+                f'    <xhtml:link rel="alternate" hreflang="nl" href="{nl}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="{nl}"/>\n  </url>\n')
     return (f'  <url>\n    <loc>{loc}</loc>\n    <lastmod>{date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n'
             f'    <xhtml:link rel="alternate" hreflang="nl" href="{nl}"/>\n    <xhtml:link rel="alternate" hreflang="en" href="{en}"/>\n'
             f'    <xhtml:link rel="alternate" hreflang="x-default" href="{en}"/>\n  </url>\n')
 
 sm = open('sitemap.xml', encoding='utf-8').read()
 for nl_slug, en_slug, date in PAIRS:
-    nl = f'https://afterbetting.com/nl/blog/{nl_slug}'; en = f'https://afterbetting.com/blog/{en_slug}'
-    for loc in (nl, en):
+    nl = f'https://afterbetting.com/nl/blog/{nl_slug}'; en = f'https://afterbetting.com/blog/{en_slug}' if en_slug else None
+    for loc in [x for x in (nl, en) if x]:
         if f'<loc>{loc}</loc>' not in sm:
             sm = sm.replace('</urlset>', entry(loc, nl, en, date) + '</urlset>')
 open('sitemap.xml', 'w', encoding='utf-8').write(sm)
