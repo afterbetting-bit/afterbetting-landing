@@ -12,6 +12,16 @@
       ]
     },
     {
+      "source": "/blog/avalanche-debt-payoff-gambling",
+      "destination": "/blog/snowball-debt-payoff-gambling",
+      "permanent": true
+    },
+    {
+      "source": "/blog/debt-free-after-gambling",
+      "destination": "/blog/rebuild-finances-after-gambling",
+      "permanent": true
+    },
+    {
       "source": "/blog/gambling-recovery-what-to-expect",
       "destination": "/blog/how-long-gambling-recovery-takes",
       "permanent": true

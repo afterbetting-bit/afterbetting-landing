@@ -123,12 +123,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/daily-habits-that-replace-gambling"/>
   </url>
 
-  <url>
-    <loc>https://afterbetting.com/blog/debt-free-after-gambling</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 
   <url>
     <loc>https://afterbetting.com/blog/does-self-exclusion-work-gambling</loc>
@@ -177,9 +171,12 @@
 
   <url>
     <loc>https://afterbetting.com/blog/rebuild-finances-after-gambling</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-aflossen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/rebuild-finances-after-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/rebuild-finances-after-gambling"/>
   </url>
 
   <url>
@@ -232,12 +229,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/snowball-debt-payoff-gambling"/>
   </url>
   <url>
-    <loc>https://afterbetting.com/blog/avalanche-debt-payoff-gambling</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://afterbetting.com/nl/blog</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -279,11 +270,12 @@
 
   <url>
     <loc>https://afterbetting.com/nl/blog/gokschuld-aflossen</loc>
-    <lastmod>2026-04-26</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-aflossen"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/nl/blog/gokschuld-aflossen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/rebuild-finances-after-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/rebuild-finances-after-gambling"/>
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/sneeuwbalmethode-gokschulden</loc>
