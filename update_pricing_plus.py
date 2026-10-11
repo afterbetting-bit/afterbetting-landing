@@ -24,6 +24,37 @@ T = {
             plus_cta='Probeer Plus 7 dagen gratis', plus_note='Zelfde prijs in €, £ en $. Geen betaalgegevens nodig voor de proef. Altijd opzegbaar.',
             m_price='4,99', m_billed='Per maand betaald', y_price='3,33', y_billed='39,99 per jaar, vooruit betaald', per='/maand', badge='7 dagen gratis'),
 }
+
+T['de'] = dict(fn='setBilling', mid='toggle-monthly', yid='toggle-yearly', sfx='', aria='Zahlungszeitraum wählen',
+            m='Monatlich', y='Jährlich', save='4 Monate gratis bei jährlicher Zahlung',
+            free='Kostenlos', free_price='Kostenlos', free_per='/für immer', free_billed='Keine Kosten',
+            free_desc='Alles, was du für die ersten Tage brauchst. Es bleibt kostenlos.',
+            free_items=['Tageszähler und Meilensteine', 'Hilfe-Kit und der Knopf Jetzt Hilfe', '5 Gewohnheiten', '3 Tagebucheinträge pro Woche', 'Geldübersicht mit 3 Fixkosten', 'Wöchentliches Update per E-Mail'],
+            free_cta='Kostenlos starten', free_note='Keine Zahlungsdaten nötig',
+            plus_desc='Alles in der App, ohne Grenzen. Auch dein Unterstützerkreis.',
+            plus_items=['Alles aus Kostenlos', 'Unbegrenztes Tagebuch und Gewohnheiten', 'Volle Geldübersicht: Schulden, Tilgungsplan und Abos', 'Sieh, welche Gewohnheiten zu besseren Tagen gehören', 'Unterstützerkreis: ein wöchentliches Update an Menschen, denen du vertraust'],
+            plus_cta='Plus 7 Tage kostenlos testen', plus_note='Gleicher Preis in €, £ und $. Keine Zahlungsdaten für den Test. Jederzeit kündbar.',
+            m_price='4,99', m_billed='Monatlich bezahlt', y_price='3,33', y_billed='39,99 pro Jahr, im Voraus bezahlt', per='/Monat', badge='7 Tage gratis')
+T['fr'] = dict(fn='setBilling', mid='toggle-monthly', yid='toggle-yearly', sfx='', aria='Choisir la période de paiement',
+            m='Mensuel', y='Annuel', save="4 mois offerts avec l'annuel",
+            free='Gratuit', free_price='Gratuit', free_per='/pour toujours', free_billed='Aucun coût',
+            free_desc='Tout ce dont tu as besoin pour les premiers jours. Ça reste gratuit.',
+            free_items=['Compteur de jours et étapes', "Kit de secours et le bouton Aide maintenant", '5 habitudes', '3 entrées de journal par semaine', 'Aperçu financier avec 3 charges fixes', 'Point hebdomadaire par e-mail'],
+            free_cta='Commencer gratuitement', free_note='Sans données de paiement',
+            plus_desc="Tout dans l'appli, sans limites. Avec ton cercle de soutien.",
+            plus_items=['Tout ce qui est dans Gratuit', 'Journal et habitudes illimités', 'Aperçu financier complet : dettes, plan de remboursement et abonnements', 'Vois quelles habitudes vont avec de meilleurs jours', 'Cercle de soutien : un point hebdomadaire aux personnes de confiance'],
+            plus_cta='Essaie Plus gratuitement 7 jours', plus_note="Même prix en €, £ et $. Sans données de paiement pour l'essai. Résiliable à tout moment.",
+            m_price='4,99', m_billed='Payé chaque mois', y_price='3,33', y_billed='39,99 par an, payé d\'avance', per='/mois', badge='7 jours offerts')
+T['es'] = dict(fn='setBilling', mid='toggle-monthly', yid='toggle-yearly', sfx='', aria='Elige el periodo de pago',
+            m='Mensual', y='Anual', save='4 meses gratis con el plan anual',
+            free='Gratis', free_price='Gratis', free_per='/para siempre', free_billed='Sin coste',
+            free_desc='Todo lo que necesitas para los primeros días. Sigue siendo gratis.',
+            free_items=['Contador de días e hitos', 'Kit de ayuda y el botón Ayuda ahora', '5 hábitos', '3 entradas de diario por semana', 'Resumen de dinero con 3 gastos fijos', 'Resumen semanal por correo'],
+            free_cta='Empieza gratis', free_note='Sin datos de pago',
+            plus_desc='Todo en la app, sin límites. También tu círculo de apoyo.',
+            plus_items=['Todo lo de Gratis', 'Diario y hábitos ilimitados', 'Resumen de dinero completo: deudas, plan de pago y suscripciones', 'Ve qué hábitos van con días mejores', 'Círculo de apoyo: un resumen semanal para quienes confías'],
+            plus_cta='Prueba Plus gratis 7 días', plus_note='Mismo precio en €, £ y $. Sin datos de pago para la prueba. Cancela cuando quieras.',
+            m_price='4,99', m_billed='Pago mensual', y_price='3,33', y_billed='39,99 al año, pago por adelantado', per='/mes', badge='7 días gratis')
 APP = 'https://app.afterbetting.com/onboarding'
 
 def block(t):
@@ -76,7 +107,7 @@ def block(t):
       }}
     </script>'''
 
-for path, lang in (('index.html', 'en'), ('nl/index.html', 'nl')):
+for path, lang in (('index.html', 'en'), ('nl/index.html', 'nl'), ('de/index.html', 'de'), ('fr/index.html', 'fr'), ('es/index.html', 'es')):
     s = open(path, encoding='utf-8').read()
     a = s.index('id="pricing"'); a = s.index('<div style="text-align:center;margin-bottom:1rem">', a)
     b = s.index('</script>', a) + len('</script>')
