@@ -105,11 +105,11 @@
 
   <url>
     <loc>https://afterbetting.com/blog/first-30-days-without-gambling</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-30-dagen-zonder-gokken"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
   </url>
 
@@ -249,12 +249,12 @@
 
   <url>
     <loc>https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken</loc>
-    <lastmod>2026-04-26</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-week-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-week-without-gambling"/>
   </url>
 
   <url>
@@ -599,5 +599,23 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/drang-om-te-gokken"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/do-gambling-urges-go-away"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/do-gambling-urges-go-away"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/eerste-30-dagen-zonder-gokken</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-30-dagen-zonder-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-30-days-without-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/first-week-without-gambling</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/eerste-week-stoppen-met-gokken"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/first-week-without-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/first-week-without-gambling"/>
   </url>
 </urlset>
