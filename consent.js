@@ -4,10 +4,13 @@
   var NAME = 'ab_consent';
   var m = document.cookie.match(/(?:^|; )ab_consent=(granted|denied)/);
   if (m) return;
-  var nl = (document.documentElement.lang || '').toLowerCase().indexOf('nl') === 0;
-  var t = nl
-    ? { text: 'Mogen we meten hoe de site wordt gebruikt? We gebruiken daarvoor Google Analytics, zonder advertenties. Je keuze geldt ook in de app.', more: 'Privacy', no: 'Weigeren', yes: 'Accepteren' }
-    : { text: 'May we measure how the site is used? We use Google Analytics for this, no advertising. Your choice also applies in the app.', more: 'Privacy', no: 'Decline', yes: 'Accept' };
+  var lg = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+  var t = {
+    nl: { text: 'Mogen we meten hoe de site wordt gebruikt? We gebruiken daarvoor Google Analytics, zonder advertenties. Je keuze geldt ook in de app.', more: 'Privacy', no: 'Weigeren', yes: 'Accepteren' },
+    de: { text: 'Dürfen wir messen, wie die Seite genutzt wird? Wir nutzen dafür Google Analytics, ohne Werbung. Deine Wahl gilt auch in der App.', more: 'Datenschutz', no: 'Ablehnen', yes: 'Akzeptieren' },
+    fr: { text: "Pouvons-nous mesurer l'utilisation du site ? Nous utilisons Google Analytics, sans publicité. Ton choix s'applique aussi dans l'appli.", more: 'Confidentialité', no: 'Refuser', yes: 'Accepter' },
+    es: { text: '¿Podemos medir cómo se usa el sitio? Usamos Google Analytics, sin publicidad. Tu elección también se aplica en la app.', more: 'Privacidad', no: 'Rechazar', yes: 'Aceptar' }
+  }[lg] || { text: 'May we measure how the site is used? We use Google Analytics for this, no advertising. Your choice also applies in the app.', more: 'Privacy', no: 'Decline', yes: 'Accept' };
 
   function save(v) {
     var dom = /(^|\.)afterbetting\.com$/.test(location.hostname) ? '; domain=.afterbetting.com' : '';
@@ -22,7 +25,7 @@
     var box = document.createElement('div');
     box.id = 'ab-consent';
     box.setAttribute('role', 'dialog');
-    box.setAttribute('aria-label', nl ? 'Cookies' : 'Cookies');
+    box.setAttribute('aria-label', 'Cookies');
     box.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:1000;max-width:560px;margin:0 auto;background:#0F1A19;color:#fff;border-radius:16px;padding:16px 18px;font-family:"DM Sans",sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)';
     var p = document.createElement('p');
     p.style.cssText = 'margin:0 0 12px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.9)';

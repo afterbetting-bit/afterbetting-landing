@@ -143,3 +143,6 @@ footer a { color: var(--apricot) !important; }
   .features { grid-template-columns: 1fr !important; }
   .feature .f-desc { display: block !important; }
 }
+
+/* Prijs met los valutateken: binnenste spans niet klein maken (regel .plan-price span) */
+.plan-price .price span { font-size: inherit !important; color: inherit !important; font-weight: inherit !important; }
