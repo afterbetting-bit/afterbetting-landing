@@ -13,6 +13,10 @@ NEW_FREE = 'Yes. The free plan includes your day counter and milestones, the rec
 en = en.replace(OLD_FREE + ', no time limit.', NEW_FREE + ', no time limit.').replace(OLD_FREE + '.', NEW_FREE + ', no time limit.')
 en = en.replace('<div class="trust-item">End-to-end encrypted</div>', '<div class="trust-item">Encrypted in transit and at rest</div>')
 en = en.replace('financial data are private and encrypted. Afterbetting', 'financial data are private and encrypted in transit and at rest. Afterbetting')
+NOTE = '<p style="text-align:center;font-size:.8rem;color:var(--muted);margin-top:1.5rem">Translated from Dutch.</p>'
+if 'Translated from Dutch.' not in en:
+    a = en.index('id="testimonials"'); b = en.index('</section>', a); b = en.rindex('</div>', a, b)
+    en = en[:b] + NOTE + '\n  ' + en[b:]
 open('index.html', 'w', encoding='utf-8').write(en)
 nl = open('nl/index.html', encoding='utf-8').read()
 nl = nl.replace('End-to-end versleuteld', 'Versleuteld verzonden en opgeslagen')
@@ -55,7 +59,6 @@ for lang in LANGS:
         f'  <meta name="twitter:title" content="{h["title"]}" />\n  <meta name="twitter:description" content="{h["desc"]}" />\n'
         f'  <meta name="twitter:image" content="https://afterbetting.com/og-image.png" />\n') + s[b:]
     # verzonnen of onbevestigde ervaringen niet meenemen
-    s = re.sub(r'<section class="section section-alt" id="testimonials">[\s\S]*?</section>\s*', '', s)
     # tekst vertalen
     s = tr_text(s, i)
     # crisisregel per land
@@ -71,7 +74,7 @@ for lang in LANGS:
     ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub('<[^>]+>', '', a)}} for q, a in faq]}, ensure_ascii=False)
     s = re.sub(r'<script type="application/ld\+json">\{"@context":"https://schema.org","@type":"FAQPage"[\s\S]*?</script>', lambda m: f'<script type="application/ld+json">{ld}</script>', s, count=1)
-    assert s.count('<title>') == 1 and 'In crisis right now' not in s and 'testimonials' not in s
+    assert s.count('<title>') == 1 and 'In crisis right now' not in s and 'Translated from Dutch' not in s
     open(f'{lang}/index.html', 'w', encoding='utf-8').write(s)
     print(f'{lang}/index.html', len(s), 'bytes,', len(faq), 'FAQ')
 

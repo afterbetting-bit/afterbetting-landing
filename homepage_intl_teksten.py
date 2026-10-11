@@ -146,6 +146,23 @@ TR = {
  'Available worldwide.': ('Weltweit verfügbar.', 'Disponible partout.', 'Disponible en todo el mundo.'),
  'Platform': ('Plattform', 'Plateforme', 'Plataforma'),
  'Dashboard': ('Dashboard', 'Tableau de bord', 'Panel'),
+ 'Real recovery': ('Echte Erfahrungen', 'Vrais témoignages', 'Experiencias reales'),
+ 'Real recovery, real people.': ('Echter Ausstieg, echte Menschen.', 'Vrai rétablissement, vraies personnes.', 'Recuperación real, personas reales.'),
+ '"I was skeptical. One week in, I knew it worked. Structure, real insight into my money, and the trust from my people I thought I had lost."':
+  ('„Ich war skeptisch. Nach einer Woche wusste ich, dass es funktioniert. Struktur, echter Einblick in mein Geld und das Vertrauen meiner Leute, das ich verloren glaubte."',
+   "« J'étais sceptique. Au bout d'une semaine, je savais que ça marchait. De la structure, une vraie vision de mon argent et la confiance de mes proches que je croyais perdue. »",
+   '«Era escéptico. A la semana supe que funcionaba. Estructura, una visión real de mi dinero y la confianza de los míos que creía perdida.»'),
+ 'In recovery': ('Im Ausstieg', 'En rétablissement', 'En recuperación'),
+ '"My son was a gambling addict. As a loved one, you forget yourself. This tool gave me back trust in our relationship, and a way to be there for him without losing myself."':
+  ('„Mein Sohn war spielsüchtig. Als Angehörige vergisst man sich selbst. Dieses Werkzeug hat mir das Vertrauen in unsere Beziehung zurückgegeben und einen Weg, für ihn da zu sein, ohne mich selbst zu verlieren."',
+   "« Mon fils était accro au jeu. Quand on est proche, on s'oublie. Cet outil m'a rendu confiance dans notre relation, et un moyen d'être là pour lui sans me perdre moi-même. »",
+   '«Mi hijo era adicto al juego. Como familiar, te olvidas de ti. Esta herramienta me devolvió la confianza en nuestra relación y una forma de estar a su lado sin perderme a mí misma.»'),
+ 'Mother of a recovered gambler': ('Mutter eines ehemaligen Spielers', "Mère d'un ancien joueur", 'Madre de un exjugador'),
+ '"I have tried to quit before. Every time it slipped. This one feels different from day one. A month in, I am not just clean. I am sure I will stay that way."':
+  ('„Ich habe schon öfter versucht aufzuhören. Jedes Mal ging es schief. Diesmal fühlte es sich vom ersten Tag an anders an. Nach einem Monat bin ich nicht nur spielfrei. Ich bin sicher, dass ich es bleibe."',
+   "« J'ai déjà essayé d'arrêter. À chaque fois, ça a dérapé. Cette fois, c'est différent dès le premier jour. Après un mois, je ne joue plus, et je suis sûr que ça va durer. »",
+   '«Ya había intentado dejarlo. Cada vez volví a caer. Esta vez se siente distinto desde el primer día. Al mes, no solo no apuesto. Estoy seguro de que seguirá así.»'),
+ 'Translated from Dutch.': ('Aus dem Niederländischen übersetzt.', 'Traduit du néerlandais.', 'Traducido del neerlandés.'),
  'Habits': ('Gewohnheiten', 'Habitudes', 'Hábitos'),
  'Journal': ('Tagebuch', 'Journal', 'Diario'),
  'Finances': ('Finanzen', 'Finances', 'Finanzas'),
