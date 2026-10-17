@@ -148,6 +148,7 @@ TR = {
  'Plus is monthly or yearly. You stop it yourself in a few clicks.': ('Plus monatlich oder jährlich. Du kündigst selbst mit wenigen Klicks.', 'Plus au mois ou à l’année. Tu arrêtes toi-même en quelques clics.', 'Plus mensual o anual. Lo cancelas tú mismo en unos clics.'),
  'What gambling does to your brain': ('Was Glücksspiel mit deinem Gehirn macht', 'Ce que le jeu fait à ton cerveau', 'Lo que el juego hace a tu cerebro'),
  'An honest answer: what research shows, what is uncertain, and what I noticed.': ('Eine ehrliche Antwort: was die Forschung zeigt, was unsicher ist und was ich selbst gemerkt habe.', 'Une réponse honnête : ce que montre la recherche, ce qui reste incertain et ce que j’ai remarqué.', 'Una respuesta honesta: lo que muestra la investigación, lo que es incierto y lo que noté yo.'),
+ 'Built by someone who gambled for 8 years, ran up €40k+ in debt, and paid every euro back.': ('Entwickelt von jemandem, der 8 Jahre gespielt, über 40.000 € Schulden gemacht und jeden Euro zurückgezahlt hat.', 'Créé par quelqu’un qui a joué pendant 8 ans, accumulé plus de 40 000 € de dettes et tout remboursé.', 'Creado por alguien que apostó durante 8 años, acumuló más de 40.000 € de deuda y devolvió cada euro.'),
  'GDPR compliant': ('DSGVO-konform', 'Conforme au RGPD', 'Cumple el RGPD'),
  'Encrypted in transit and at rest': ('Verschlüsselt übertragen und gespeichert', 'Chiffré en transit et au repos', 'Cifrado en tránsito y en reposo'),
  'No ads, ever': ('Niemals Werbung', 'Jamais de pub', 'Nunca anuncios'),
