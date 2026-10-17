@@ -26,7 +26,7 @@ T = {
             r1=('Habits', '2 of 6'), r2=('Log a spend', '€ 62 a day left'), r3=('Evening question', 'a few lines'),
             s1=('€ 180', 'not gambled this week'), s2=('3 times', 'got through an urge'),
             nav=['Today', 'Habits', 'Help', 'Money', 'Journal'],
-            h_top='You got through this 3 times before', h_big='The urge passes. Usually within 20 minutes.', h_btn1='I got through it', h_btn2='15 more minutes',
+            h_top='You got through this 3 times before', h_big='The urge passes. It rises, peaks and fades.', h_btn1='I got through it', h_btn2='15 more minutes',
             h_line='Call the National Gambling Helpline', h_line2='0808 8020 133, free, 24/7',
             m_title='Money', m_tabs=['Overview','Spending','Debts'], m_left='Free to spend in October', m_amt='€ 1.240', m_day='€ 62 a day',
             m_in=('Income', '€ 2.650', 'in on 25 Oct'), m_fix=('Fixed costs', '€ 1.050', '40% of income'),
@@ -40,7 +40,7 @@ T = {
             r1=('Gewoonten', '2 van 6'), r2=('Uitgave loggen', '€ 62 per dag vrij'), r3=('Avondvraag', 'een paar regels'),
             s1=('€ 180', 'niet vergokt deze week'), s2=('3 keer', 'drang doorstaan'),
             nav=['Vandaag', 'Gewoonten', 'Hulp', 'Geld', 'Dagboek'],
-            h_top='Je hebt dit 3 keer eerder doorstaan', h_big='De drang zakt. Meestal binnen 20 minuten.', h_btn1='Ik ben er doorheen', h_btn2='Nog 15 minuten',
+            h_top='Je hebt dit 3 keer eerder doorstaan', h_big='De drang zakt. Hij komt op, piekt en zakt.', h_btn1='Ik ben er doorheen', h_btn2='Nog 15 minuten',
             h_line='Bel OpenOverGokken', h_line2='0800-2400022, gratis en anoniem, dag en nacht',
             m_title='Geld', m_tabs=['Overzicht','Uitgaven','Schulden'], m_left='Vrij te besteden in oktober', m_amt='€ 1.240', m_day='€ 62 per dag',
             m_in=('Inkomen', '€ 2.650', 'binnen op 25 okt'), m_fix=('Vaste lasten', '€ 1.050', '40% van je inkomen'),
@@ -56,7 +56,7 @@ T['de'] = dict(date='Sonntag, 12. Oktober', big='47 Tage frei', sub='Noch 13 bis
             r1=('Gewohnheiten', '2 von 6'), r2=('Ausgabe notieren', '62 € pro Tag übrig'), r3=('Abendfrage', 'ein paar Zeilen'),
             s1=('180 €', 'diese Woche nicht verspielt'), s2=('3 Mal', 'Drang überstanden'),
             nav=['Heute', 'Gewohnheiten', 'Hilfe', 'Geld', 'Tagebuch'],
-            h_top='Du hast das schon 3 Mal überstanden', h_big='Der Drang geht vorbei. Meist in 20 Minuten.', h_btn1='Ich hab es geschafft', h_btn2='Noch 15 Minuten',
+            h_top='Du hast das schon 3 Mal überstanden', h_big='Der Drang geht vorbei. Er steigt, erreicht den Höhepunkt und sinkt.', h_btn1='Ich hab es geschafft', h_btn2='Noch 15 Minuten',
             h_line='BZgA-Telefonberatung anrufen', h_line2='0800 1 37 27 00, kostenlos',
             m_title='Geld', m_tabs=['Überblick','Ausgaben','Schulden'], m_left='Frei verfügbar im Oktober', m_amt='1.240 €', m_day='62 € pro Tag',
             m_in=('Einkommen', '2.650 €', 'kommt am 25. Okt.'), m_fix=('Fixkosten', '1.050 €', '40 % des Einkommens'),
@@ -70,7 +70,7 @@ T['fr'] = dict(date='Dimanche 12 octobre', big='47 jours sans jeu', sub='Plus qu
             r1=('Habitudes', '2 sur 6'), r2=('Noter une dépense', '62 € par jour restant'), r3=('Question du soir', 'quelques lignes'),
             s1=('180 €', 'pas joués cette semaine'), s2=('3 fois', "envie surmontée"),
             nav=["Aujourd'hui", 'Habitudes', 'Aide', 'Argent', 'Journal'],
-            h_top="Tu as déjà surmonté ça 3 fois", h_big="L'envie passe. Souvent en 20 minutes.", h_btn1="C'est passé", h_btn2='Encore 15 minutes',
+            h_top="Tu as déjà surmonté ça 3 fois", h_big="L'envie passe. Elle monte, culmine et redescend.", h_btn1="C'est passé", h_btn2='Encore 15 minutes',
             h_line='Appeler Joueurs Info Service', h_line2='09 74 75 13 13, 7j/7 de 8h à 2h',
             m_title='Argent', m_tabs=['Aperçu','Dépenses','Dettes'], m_left='Disponible en octobre', m_amt='1 240 €', m_day='62 € par jour',
             m_in=('Revenus', '2 650 €', 'le 25 oct.'), m_fix=('Charges fixes', '1 050 €', '40 % des revenus'),
@@ -84,7 +84,7 @@ T['es'] = dict(date='Domingo, 12 de octubre', big='47 días libre', sub='Faltan 
             r1=('Hábitos', '2 de 6'), r2=('Anotar un gasto', '62 € al día disponibles'), r3=('Pregunta de la noche', 'unas líneas'),
             s1=('180 €', 'sin apostar esta semana'), s2=('3 veces', 'superaste las ganas'),
             nav=['Hoy', 'Hábitos', 'Ayuda', 'Dinero', 'Diario'],
-            h_top='Ya lo has superado 3 veces', h_big='Las ganas pasan. Normalmente en 20 minutos.', h_btn1='Lo he superado', h_btn2='15 minutos más',
+            h_top='Ya lo has superado 3 veces', h_big='Las ganas pasan. Suben, llegan al pico y bajan.', h_btn1='Lo he superado', h_btn2='15 minutos más',
             h_line='Llamar a FEJAR', h_line2='900 200 225, gratuito',
             m_title='Dinero', m_tabs=['Resumen','Gastos','Deudas'], m_left='Disponible en octubre', m_amt='1.240 €', m_day='62 € al día',
             m_in=('Ingresos', '2.650 €', 'entra el 25 oct.'), m_fix=('Gastos fijos', '1.050 €', '40 % de los ingresos'),
@@ -136,9 +136,56 @@ def phone_money(t):
             f'<div class="p-card"><div class="p-small">{b[0]}</div><div class="p-num">{b[1]}</div><div class="p-small">{b[2]}</div></div></div>'
             f'{nav(t, 3)}</div>')
 
+
+X = {
+ 'en': dict(hab_title='Habits', hab_week='this week', hab_sum='14 of 21',
+            hab=[('Walk 30 minutes', '5 in a row', True), ('No phone in bed', '12 in a row', True), ('Read 20 minutes', '2 of 3 this week', False), ('See or call a friend', '1 of 2 this week', False)],
+            jr_q1='How was your day?', jr_q2='What is on your mind tonight?', jr_text='Friday was hard. Went for a walk instead of opening the app. Felt better after.',
+            jr_close='Close the day', jr_well='One thing that went well', jr_well_t='Called my brother',
+            caps2=[('Habits that fill the gap', 'Small daily things that take the place gambling used to have.'), ('A private journal', 'A question for the evening and a way to close the day. Only you read it.')]),
+ 'nl': dict(hab_title='Gewoonten', hab_week='deze week', hab_sum='14 van 21',
+            hab=[('30 minuten wandelen', '5 op rij', True), ('Geen telefoon in bed', '12 op rij', True), ('20 minuten lezen', '2 van 3 deze week', False), ('Een vriend zien of bellen', '1 van 2 deze week', False)],
+            jr_q1='Hoe was je dag?', jr_q2='Wat zit er vanavond in je hoofd?', jr_text='Vrijdag was zwaar. Ben gaan wandelen in plaats van de app te openen. Voelde me daarna beter.',
+            jr_close='De dag afsluiten', jr_well='Eén ding dat goed ging', jr_well_t='Mijn broer gebeld',
+            caps2=[('Gewoonten die het gat vullen', 'Kleine dingen per dag die de plek innemen van het gokken.'), ('Een privé dagboek', 'Een vraag voor de avond en een manier om de dag af te sluiten. Alleen jij leest het.')]),
+ 'de': dict(hab_title='Gewohnheiten', hab_week='diese Woche', hab_sum='14 von 21',
+            hab=[('30 Minuten spazieren', '5 in Folge', True), ('Kein Handy im Bett', '12 in Folge', True), ('20 Minuten lesen', '2 von 3 diese Woche', False), ('Freund treffen oder anrufen', '1 von 2 diese Woche', False)],
+            jr_q1='Wie war dein Tag?', jr_q2='Was geht dir heute Abend durch den Kopf?', jr_text='Freitag war schwer. Bin spazieren gegangen, statt die App zu öffnen. Danach ging es besser.',
+            jr_close='Den Tag abschließen', jr_well='Eine Sache, die gut lief', jr_well_t='Meinen Bruder angerufen',
+            caps2=[('Gewohnheiten, die die Lücke füllen', 'Kleine tägliche Dinge, die den Platz des Spielens einnehmen.'), ('Ein privates Tagebuch', 'Eine Frage für den Abend und ein Weg, den Tag abzuschließen. Nur du liest es.')]),
+ 'fr': dict(hab_title='Habitudes', hab_week='cette semaine', hab_sum='14 sur 21',
+            hab=[('Marcher 30 minutes', '5 d’affilée', True), ('Pas de téléphone au lit', '12 d’affilée', True), ('Lire 20 minutes', '2 sur 3 cette semaine', False), ('Voir ou appeler un ami', '1 sur 2 cette semaine', False)],
+            jr_q1='Comment s’est passée ta journée ?', jr_q2='Qu’as-tu en tête ce soir ?', jr_text='Vendredi était dur. Je suis allé marcher au lieu d’ouvrir l’appli. Ça allait mieux après.',
+            jr_close='Clore la journée', jr_well='Une chose qui s’est bien passée', jr_well_t='J’ai appelé mon frère',
+            caps2=[('Des habitudes qui comblent le vide', 'De petites choses chaque jour qui prennent la place du jeu.'), ('Un journal privé', 'Une question pour le soir et une façon de clore la journée. Toi seul le lis.')]),
+ 'es': dict(hab_title='Hábitos', hab_week='esta semana', hab_sum='14 de 21',
+            hab=[('Caminar 30 minutos', '5 seguidos', True), ('Nada de móvil en la cama', '12 seguidos', True), ('Leer 20 minutos', '2 de 3 esta semana', False), ('Ver o llamar a un amigo', '1 de 2 esta semana', False)],
+            jr_q1='¿Qué tal tu día?', jr_q2='¿Qué tienes en la cabeza esta noche?', jr_text='El viernes fue duro. Salí a caminar en vez de abrir la app. Después me sentí mejor.',
+            jr_close='Cerrar el día', jr_well='Una cosa que salió bien', jr_well_t='Llamé a mi hermano',
+            caps2=[('Hábitos que llenan el hueco', 'Pequeñas cosas diarias que ocupan el lugar del juego.'), ('Un diario privado', 'Una pregunta para la noche y una forma de cerrar el día. Solo tú lo lees.')]),
+}
+for _k in X: T[_k].update(X[_k])
+
+def phone_habits(t):
+    rows = ''.join(f'<div class="p-row"><span style="display:flex;align-items:center;gap:8px"><i class="p-check{" on" if d else ""}"></i>{n}</span><span>{s}</span></div>' for n, s, d in t['hab'])
+    return (f'<div class="ab-phone">'
+            f'<div class="p-big" style="font-size:26px">{t["hab_title"]}</div>'
+            f'<div class="p-card"><div class="p-small">{t["hab_week"]}</div><div class="p-num">{t["hab_sum"]}</div>{strip(21, 24)}</div>'
+            f'<div class="p-card" style="padding-top:6px;padding-bottom:6px">{rows}</div>'
+            f'{nav(t, 1)}</div>')
+
+def phone_journal(t):
+    m = ''.join(f'<span class="{"on" if i == 2 else ""}">{x}</span>' for i, x in enumerate(t['moods']))
+    return (f'<div class="ab-phone">'
+            f'<div class="p-date">{t["date"]}</div>'
+            f'<div class="p-card"><div class="p-h">{t["jr_q1"]}</div><div class="p-moods">{m}</div></div>'
+            f'<div class="p-card"><div class="p-h" style="font-size:14px">{t["jr_q2"]}</div><div style="color:var(--p-muted);font-size:13px;line-height:1.5">{t["jr_text"]}</div></div>'
+            f'<div class="p-card"><div class="p-h" style="font-size:14px">{t["jr_close"]}</div><div class="p-small">{t["jr_well"]}</div><div style="margin-top:4px">{t["jr_well_t"]}</div></div>'
+            f'{nav(t, 4)}</div>')
+
 def section(t, signup):
     figs = ''.join(f'<figure><div role="img" aria-label="{c[0]}">{ph}</div><figcaption><strong>{c[0]}</strong><span>{c[1]}</span></figcaption></figure>'
-                   for ph, c in zip((phone_today(t), phone_help(t), phone_money(t)), t['caps']))
+                   for ph, c in zip((phone_today(t), phone_help(t), phone_habits(t), phone_journal(t), phone_money(t)), (t['caps'][0], t['caps'][1], t['caps2'][0], t['caps2'][1], t['caps'][2])))
     return (f'<!-- app-preview:start -->\n<section class="app-preview" id="app"><div class="ap-inner">'
             f'<h2>{t["sec_h"]}</h2><p class="ap-lead">{t["sec_lead"]}</p><div class="ap-row">{figs}</div>'
             f'<div class="ap-cta"><a href="{signup}" onclick="if(window.gtag)gtag(\'event\',\'cta_click\',{{cta_location:\'app_preview\'}})">{t["cta"]}</a><p>{t["cta_sub"]}</p></div>'
@@ -154,7 +201,7 @@ for path, lang in (('index.html', 'en'), ('nl/index.html', 'nl'), ('de/index.htm
         s, n = re.subn(r'<div class="hero-phone"[\s\S]*?</div></div>(?=\s*</section>)', hero_new, s, count=1)
     assert n == 1, (path, 'hero niet gevonden')
     s = re.sub(r'<!-- app-preview:start -->[\s\S]*?<!-- app-preview:end -->\n', '', s)
-    i = s.index('<section class="section') if False else s.index('id="pricing"')
+    i = s.index('id="problem"')
     i = s.rindex('<section', 0, i)
     s = s[:i] + section(t, SIGNUP) + s[i:]
     s = s.replace('<div class="badge">✦ ', '<div class="badge">')
