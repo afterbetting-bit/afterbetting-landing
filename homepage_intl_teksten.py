@@ -146,6 +146,8 @@ TR = {
  'Day counter, Recovery kit and Help now stay free. No credit card needed.': ('Tageszähler und Hilfe-Kit bleiben kostenlos. Ohne Kreditkarte.', 'Le compteur de jours et le kit de secours restent gratuits. Sans carte bancaire.', 'El contador de días y el kit de ayuda siguen gratis. Sin tarjeta.'),
  'Cancel any time': ('Jederzeit kündbar', 'Résiliable à tout moment', 'Cancela cuando quieras'),
  'Plus is monthly or yearly. You stop it yourself in a few clicks.': ('Plus monatlich oder jährlich. Du kündigst selbst mit wenigen Klicks.', 'Plus au mois ou à l’année. Tu arrêtes toi-même en quelques clics.', 'Plus mensual o anual. Lo cancelas tú mismo en unos clics.'),
+ 'What gambling does to your brain': ('Was Glücksspiel mit deinem Gehirn macht', 'Ce que le jeu fait à ton cerveau', 'Lo que el juego hace a tu cerebro'),
+ 'An honest answer: what research shows, what is uncertain, and what I noticed.': ('Eine ehrliche Antwort: was die Forschung zeigt, was unsicher ist und was ich selbst gemerkt habe.', 'Une réponse honnête : ce que montre la recherche, ce qui reste incertain et ce que j’ai remarqué.', 'Una respuesta honesta: lo que muestra la investigación, lo que es incierto y lo que noté yo.'),
  'GDPR compliant': ('DSGVO-konform', 'Conforme au RGPD', 'Cumple el RGPD'),
  'Encrypted in transit and at rest': ('Verschlüsselt übertragen und gespeichert', 'Chiffré en transit et au repos', 'Cifrado en tránsito y en reposo'),
  'No ads, ever': ('Niemals Werbung', 'Jamais de pub', 'Nunca anuncios'),
