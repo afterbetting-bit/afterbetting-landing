@@ -98,7 +98,7 @@ If they knew you had stopped, this conversation is harder. A few things help.
 
 **Offer openness.** If they want to, let them see your bank statements for a while, or your streak in the app. Trust comes back through what they can see, not through promises.
 
-If the conversation feels impossible, [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-someone-gambling-problem) walks you through it.
+If the conversation feels impossible, [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem) walks you through it.
 
 ## When to get more help
 
@@ -279,7 +279,7 @@ Start small. One habit you do every day, linked to something you already do. [Da
 
 If your social life was built around gambling, you need new places to be with people. A sports club where you play instead of bet. A weekly dinner with someone. Volunteering. A support group.
 
-And tell at least one person what you are going through. It is very hard to build a new life while hiding the old one. [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-someone-gambling-problem) helps with that conversation.
+And tell at least one person what you are going through. It is very hard to build a new life while hiding the old one. [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem) helps with that conversation.
 
 ### 4. Find a new way to handle hard moments
 

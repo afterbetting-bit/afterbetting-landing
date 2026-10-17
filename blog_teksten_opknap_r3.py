@@ -79,7 +79,7 @@ Money borrowed from a partner, parents or friends weighs differently. There is n
 
 Have the conversation. Not with a vague promise, but with a plan: how much you owe them, how much you can pay back each month, and from when. A small amount you actually pay every month rebuilds more trust than a big amount you promise and miss.
 
-If they want to see your bank statements for a while, let them. Openness works better than promises. [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-someone-gambling-problem) helps if you have not told them yet.
+If they want to see your bank statements for a while, let them. Openness works better than promises. [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem) helps if you have not told them yet.
 
 ## Step 8: make the progress visible
 

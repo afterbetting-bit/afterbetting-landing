@@ -12,6 +12,11 @@
       ]
     },
     {
+      "source": "/blog/how-to-tell-someone-gambling-problem",
+      "destination": "/blog/how-to-tell-family-about-gambling-problem",
+      "permanent": true
+    },
+    {
       "source": "/blog/avalanche-debt-payoff-gambling",
       "destination": "/blog/snowball-debt-payoff-gambling",
       "permanent": true

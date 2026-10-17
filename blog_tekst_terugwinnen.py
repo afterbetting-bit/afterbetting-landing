@@ -241,7 +241,7 @@ I know how that feels. I also know the weight of that secret gets heavier every 
 
 Telling someone what is going on takes a lot of that pressure off. Not because the money comes back. Because you no longer have to gamble to hide something. And because someone can keep an eye on things with you when it gets hard.
 
-It is one of the scariest conversations you can have. How to approach it is in [how to tell someone you have a gambling problem](/blog/how-to-tell-someone-gambling-problem).
+It is one of the scariest conversations you can have. How to approach it is in [how to tell someone you have a gambling problem](/blog/how-to-tell-family-about-gambling-problem).
 
 ## What I did instead
 

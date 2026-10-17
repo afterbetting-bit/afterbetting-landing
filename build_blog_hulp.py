@@ -43,7 +43,7 @@ build('blog/block-gambling-sites-and-payments.html', 'blog/where-to-get-help-gam
       f'<div class="cta"><h3>For the hours in between</h3><p>Next to support: your days free, your habits and the helpline one tap away. Start free.</p><a href="https://app.afterbetting.com/onboarding" {ONCLICK}>Start free</a></div>',
       cards(['Continue reading', ('https://afterbetting.com/blog/gambling-addiction-symptoms-and-signs', 'Signs', 'Gambling addiction symptoms and signs'),
              ('https://afterbetting.com/blog/block-gambling-sites-and-payments', 'Tools', 'How to block gambling sites, apps and bank payments'),
-             ('https://afterbetting.com/blog/how-to-tell-someone-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
+             ('https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
              ('https://afterbetting.com/blog/rebuild-finances-after-gambling', 'Money', 'How to pay off gambling debt and rebuild your finances')]),
       '<div class="crisis-footer"><p>In crisis right now? In the UK, call the <strong>National Gambling Helpline (GamCare) on 0808 8020 133</strong>, free, 24/7. In the Netherlands: <strong>OpenOverGokken 0800-2400022</strong>. Thinking about suicide? Call <strong>Samaritans on 116 123</strong>.</p></div>',
       HREF, '2026-10-11', efld)

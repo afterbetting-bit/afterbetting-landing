@@ -24,7 +24,7 @@ build('blog/does-self-exclusion-work-gambling.html', 'blog/casino-not-on-gamstop
       cards(['Continue reading', ('https://afterbetting.com/blog/block-gambling-sites-and-payments', 'Tools', 'How to block gambling sites, apps and bank payments'),
              ('https://afterbetting.com/blog/cancel-gamstop-early', 'Crisis', 'Can you cancel GamStop early? Read this first'),
              ('https://afterbetting.com/blog/what-to-do-after-gambling-relapse', 'Relapse', 'What to do immediately after a gambling relapse'),
-             ('https://afterbetting.com/blog/how-to-tell-someone-gambling-problem', 'Support', 'How to tell someone you have a gambling problem')]),
+             ('https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem', 'Support', 'How to tell someone you have a gambling problem')]),
       '<div class="crisis-footer"><p>In crisis right now? In the UK, call the <strong>National Gambling Helpline (GamCare) on 0808 8020 133</strong>, free, 24/7. In the Netherlands: <strong>OpenOverGokken 0800-2400022</strong>. Thinking about suicide? Call <strong>Samaritans on 116 123</strong>.</p></div>',
       HREF, '2026-10-11', faq_ld)
 
