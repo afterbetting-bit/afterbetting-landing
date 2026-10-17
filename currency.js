@@ -9,5 +9,7 @@
   else if (tz.indexOf('Canada') > -1 || lang.indexOf('en-CA') > -1) calcSymbol = 'C$';
   document.addEventListener('DOMContentLoaded', function(){
     document.querySelectorAll('.calc-currency').forEach(function(el){ el.textContent = calcSymbol; });
+    window.ABCUR = calcSymbol;
+    if (typeof window.updateCalc === 'function') window.updateCalc();
   });
 })();
