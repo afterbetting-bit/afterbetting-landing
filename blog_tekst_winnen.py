@@ -180,7 +180,7 @@ Winnings that sit in your account without a purpose tend to become stakes again.
 
 A win is as much a secret as a loss. Tell someone that you won, that you want to stop and what you are doing with the money. Then it is no longer only your own promise.
 
-Not sure how to start that conversation? Read [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-someone-gambling-problem).
+Not sure how to start that conversation? Read [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem).
 
 ## The urge after a win
 

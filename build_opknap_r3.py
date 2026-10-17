@@ -28,7 +28,7 @@ page('rebuild-finances-after-gambling', 'How to pay off gambling debt and rebuil
      [(B + 'snowball-debt-payoff-gambling', 'Money', 'Snowball or avalanche for gambling debt?'),
       (B + 'gambled-away-paycheck-what-now', 'Crisis', 'Just gambled away my paycheck. What now?'),
       (B + 'block-gambling-sites-and-payments', 'Tools', 'How to block gambling sites, apps and bank payments'),
-      (B + 'how-to-tell-someone-gambling-problem', 'Support', 'How to tell someone you have a gambling problem')])
+      (B + 'how-to-tell-family-about-gambling-problem', 'Support', 'How to tell someone you have a gambling problem')])
 
 page('snowball-debt-payoff-gambling', 'Snowball or avalanche for gambling debt?',
      'Snowball or avalanche: which way to pay off gambling debt? Both methods explained, one worked example and how to choose the one you will stick to.',

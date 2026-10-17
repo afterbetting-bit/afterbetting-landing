@@ -173,7 +173,7 @@ Outside help works best when you also close the door yourself. You can start tod
 
 - **Sign up to GamStop.** It excludes you from gambling companies licensed in Great Britain. See [Can you cancel GamStop early?](https://afterbetting.com/blog/cancel-gamstop-early) for how it works.
 - **Block gambling** on your phone and laptop, and turn on your bank's gambling block. See [How to block gambling sites, apps and bank payments](https://afterbetting.com/blog/block-gambling-sites-and-payments).
-- **Tell one person.** [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-someone-gambling-problem) helps with that conversation.
+- **Tell one person.** [How to tell someone you have a gambling problem](https://afterbetting.com/blog/how-to-tell-family-about-gambling-problem) helps with that conversation.
 
 ## What to expect
 

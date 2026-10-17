@@ -60,7 +60,7 @@ page('what-to-do-after-gambling-relapse', 'What to do right after a gambling rel
      ('Start again without the shame', 'Set a new start date in a few taps. Your journal, habits and money overview stay as they were.'),
      [(B + 'casino-not-on-gamstop', 'Crisis', 'Found a casino not on GamStop? Read this first'),
       (B + 'block-gambling-sites-and-payments', 'Tools', 'How to block gambling sites, apps and bank payments'),
-      (B + 'how-to-tell-someone-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
+      (B + 'how-to-tell-family-about-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
       (B + 'how-long-gambling-recovery-takes', 'Recovery', 'How long does gambling recovery take?')])
 
 page('sleep-after-stopping-gambling', "Can't sleep after quitting gambling? What helps",
@@ -80,7 +80,7 @@ page('gambling-addiction-identity-loss', 'Who am I without gambling? Identity af
      ('Build it one day at a time', 'Habits, a daily check-in and a journal. The small things you repeat become who you are.'),
      [(B + 'daily-habits-that-replace-gambling', 'Habits', 'Daily habits that replace gambling'),
       (B + 'what-to-do-instead-of-gambling', 'Habits', 'What to do instead of gambling'),
-      (B + 'how-to-tell-someone-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
+      (B + 'how-to-tell-family-about-gambling-problem', 'Support', 'How to tell someone you have a gambling problem'),
       (B + 'how-long-gambling-recovery-takes', 'Recovery', 'How long does gambling recovery take?')])
 
 # what-to-expect overlapt met how-long-gambling-recovery-takes: samenvoegen met een 301
