@@ -32,7 +32,7 @@
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}var abc=(document.cookie.match(/(?:^|; )ab_consent=(granted|denied)/)||[])[1];gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:abc==='granted'?'granted':'denied',wait_for_update:500});gtag('js',new Date());if(/^(www\.)?afterbetting\.com$/.test(location.hostname))gtag('config','G-BC3QG79LQ0');</script><script src="/consent.js" defer></script><script src="/nav.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{--clay:#0F1A19;--clay-light:#F4B97A;--clay-bg:#F6EDE2;--dark:#0F1A19;--mid:#33443F;--muted:#5A6E67;--cream:#F6F8F5;--warm:#ECF0EC;--border:#DCE3DE;--green:#7A9E8E;--green-bg:#EEF5F2;--green-border:#C2D8D0}
@@ -137,12 +137,12 @@
     .f-logo{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:300;margin-bottom:1rem}
     .f-logo span{color:var(--clay-light)}
     .f-desc{font-size:.88rem;color:#5A6E67;font-weight:300;line-height:1.7;margin-bottom:1rem;max-width:320px}
-    .f-markets{font-size:.78rem;color:#5A6E67;font-weight:300}
+    .f-markets{font-size:.78rem;color:#93A69F;font-weight:300}
     .f-col-title{font-size:.82rem;color:#fff;font-weight:500;margin-bottom:.85rem;text-transform:uppercase;letter-spacing:.05em}
     .f-col a{display:block;font-size:.88rem;color:#5A6E67;text-decoration:none;padding:.25rem 0;font-weight:300;transition:color .2s}
     .f-col a:hover{color:#fff}
     .f-bottom{max-width:1200px;margin:0 auto;padding-top:2rem;border-top:1px solid #33443F;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
-    .f-bottom p{font-size:.78rem;color:#5A6E67;font-weight:300}
+    .f-bottom p{font-size:.78rem;color:#93A69F;font-weight:300}
     .crisis-footer{background:var(--clay-bg);border-top:1px solid var(--clay-light);padding:1.25rem 2rem;text-align:center}
     .crisis-footer p{font-size:.88rem;color:var(--dark);font-weight:400}
     .crisis-footer strong{color:var(--clay)}
@@ -178,8 +178,8 @@
     </div>
     <p class="note">Gratis, zonder creditcard, en het werkt op je telefoon.</p>
     <div class="calc">
-      <div class="calc-label">Hoeveel geef je per week uit aan gokken?</div>
-      <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
+      <div class="calc-label" id="calc-label">Hoeveel geef je per week uit aan gokken?</div>
+      <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" aria-labelledby="calc-label" inputmode="decimal" value="50" min="1" max="10000" oninput="updateCalc()"></div>
       <div class="calc-result"><div><div class="calc-sub">Je kunt in een jaar besparen</div><div class="calc-amount" id="yearly">€2.600</div></div><a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'calculator',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding?van=home" id="calc-cta" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Begin met sparen</a></div>
     </div>
     <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;var y=Math.round(w*52);document.getElementById("yearly").textContent=(window.ABCUR||"€")+y.toLocaleString("nl-NL");var btn=document.getElementById("calc-cta");if(btn){btn.textContent=y>0?"Bespaar "+(window.ABCUR||"€")+y.toLocaleString("nl-NL"):"Begin met sparen";}}</script>
@@ -221,17 +221,17 @@
     <p class="section-sub">Zo ziet je eerste week eruit.</p>
     <div class="how">
       <div>
-        <div class="how-num">01</div>
+        <div class="how-num" aria-hidden="true">01</div>
         <div class="how-title">Vertel waar je staat.</div>
         <p class="how-desc">Een paar korte vragen: wanneer je voor het laatst gokte, wat nu het zwaarst weegt en hoeveel er per week naartoe ging. Klaar in een paar minuten.</p>
       </div>
       <div>
-        <div class="how-num">02</div>
+        <div class="how-num" aria-hidden="true">02</div>
         <div class="how-title">Bouw één dag tegelijk.</div>
         <p class="how-desc">Elke dag een korte check-in, een paar kleine gewoontes en een plek om te schrijven als je vastloopt. Je hebt geen groot plan nodig, alleen vandaag.</p>
       </div>
       <div>
-        <div class="how-num">03</div>
+        <div class="how-num" aria-hidden="true">03</div>
         <div class="how-title">Zie hoe ver je komt.</div>
         <p class="how-desc">Je ziet hoeveel dagen je vrij bent en hoeveel geld je niet hebt vergokt. Wordt een dag zwaar, dan is Nu hulp één tik weg.</p>
       </div>

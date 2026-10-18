@@ -28,7 +28,7 @@
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}var abc=(document.cookie.match(/(?:^|; )ab_consent=(granted|denied)/)||[])[1];gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:abc==='granted'?'granted':'denied',wait_for_update:500});gtag('js',new Date());if(/^(www\.)?afterbetting\.com$/.test(location.hostname))gtag('config','G-BC3QG79LQ0');</script><script src="/consent.js" defer></script><script src="/nav.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{--clay:#0F1A19;--clay-light:#F4B97A;--clay-bg:#F6EDE2;--dark:#0F1A19;--mid:#33443F;--muted:#5A6E67;--cream:#F6F8F5;--warm:#ECF0EC;--border:#DCE3DE;--green:#7A9E8E;--green-bg:#EEF5F2;--green-border:#C2D8D0}
@@ -82,7 +82,7 @@
     .label{font-size:.78rem;font-weight:500;color:var(--clay);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem}
     h2{font-family:'Fraunces',serif;font-size:2.4rem;font-weight:300;color:var(--dark);margin-bottom:3rem;line-height:1.2}
     .how{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
-    .how-num{font-family:'Fraunces',serif;font-size:3rem;font-weight:300;color:var(--border);line-height:1;margin-bottom:1rem}
+    .how-num{font-family:'Fraunces',serif;font-size:3rem;font-weight:300;color:var(--muted);opacity:.55;line-height:1;margin-bottom:1rem}
     .how-title{font-family:'Fraunces',serif;font-size:1.15rem;font-weight:400;color:var(--dark);margin-bottom:.6rem}
     .how-desc{font-size:.875rem;color:var(--mid);line-height:1.7;font-weight:300}
     .section-cta{text-align:center;margin-top:3rem}
@@ -172,8 +172,8 @@
     </div>
     <p class="note">Free, no credit card, and it works on your phone.</p>
     <div class="calc">
-      <div class="calc-label">How much do you spend on gambling per week?</div>
-      <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" value="50" min="1" max="10000" oninput="updateCalc()"></div>
+      <div class="calc-label" id="calc-label">How much do you spend on gambling per week?</div>
+      <div class="calc-input"><span style="color:var(--muted)" class="calc-currency">€</span><input type="number" id="weekly" aria-labelledby="calc-label" inputmode="decimal" value="50" min="1" max="10000" oninput="updateCalc()"></div>
       <div class="calc-result"><div><div class="calc-sub">You could save in one year</div><div class="calc-amount" id="yearly">€2,600</div></div><a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'calculator',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding?van=home" id="calc-cta" style="background:var(--clay);color:#fff;padding:.5rem 1.1rem;border-radius:100px;font-size:.82rem;font-weight:500;text-decoration:none;font-family:DM Sans,sans-serif;white-space:nowrap">Start saving</a></div>
     </div>
     <script>function updateCalc(){var w=parseFloat(document.getElementById("weekly").value)||0;var y=Math.round(w*52);document.getElementById("yearly").textContent=(window.ABCUR||"€")+y.toLocaleString();var btn=document.getElementById("calc-cta");if(btn){btn.textContent=y>0?"Save "+(window.ABCUR||"€")+y.toLocaleString()+" this year":"Start saving";}}</script>
@@ -213,9 +213,9 @@
     <div class="label">How it works</div>
     <h2>How to stop gambling. Three steps at a time.</h2>
     <div class="how">
-      <div><div class="how-num">01</div><div class="how-title">Set your start date</div><p class="how-desc">Tell us when you last gambled. Your gambling-free streak starts immediately. Even if you already have days behind you.</p></div>
-      <div><div class="how-num">02</div><div class="how-title">Build your daily rhythm</div><p class="how-desc">Journal, track habits, and check your mood. A short check-in each day, a few small habits and a place to write when you get stuck.</p></div>
-      <div><div class="how-num">03</div><div class="how-title">Watch your life rebuild</div><p class="how-desc">You see how many days you have been gambling-free and how much money you have not lost. When a day gets heavy, Help now is one tap away.</p></div>
+      <div><div class="how-num" aria-hidden="true">01</div><div class="how-title">Set your start date</div><p class="how-desc">Tell us when you last gambled. Your gambling-free streak starts immediately. Even if you already have days behind you.</p></div>
+      <div><div class="how-num" aria-hidden="true">02</div><div class="how-title">Build your daily rhythm</div><p class="how-desc">Journal, track habits, and check your mood. A short check-in each day, a few small habits and a place to write when you get stuck.</p></div>
+      <div><div class="how-num" aria-hidden="true">03</div><div class="how-title">Watch your life rebuild</div><p class="how-desc">You see how many days you have been gambling-free and how much money you have not lost. When a day gets heavy, Help now is one tap away.</p></div>
     </div>
     <div class="section-cta">
       <a rel="noopener noreferrer" onclick="gtag('event','cta_click',{cta_location:'how_it_works',page_path:location.pathname})" href="https://app.afterbetting.com/onboarding?van=home" class="btn">Start free today</a>
