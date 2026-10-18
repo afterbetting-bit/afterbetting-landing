@@ -21,8 +21,8 @@ def page(lang, title, desc, canonical, hreflangs, schema_json, hero, body, relat
 <html lang="{lang}">
 <head>
 <meta charset="UTF-8"/>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico?v=20261018" sizes="32x32"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261018">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20261018">
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>{title}</title>
 <meta name="description" content="{desc}"/>
@@ -560,8 +560,8 @@ index_html = f"""<!DOCTYPE html>
 <html lang="nl">
 <head>
 <meta charset="UTF-8"/>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico?v=20261018" sizes="32x32"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261018">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20261018">
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Blog over gokverslaving en herstel | Afterbetting</title>
 <meta name="description" content="Eerlijke artikelen over stoppen met gokken, gokverslaving herkennen en herstel. In gewone taal, voor mensen die echt willen stoppen."/>
