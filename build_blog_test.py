@@ -77,7 +77,7 @@ def widget(lang):
           'if(miss!==null){r.hidden=false;r.className="abt-result abt-miss";r.textContent=T.missing;f.querySelectorAll("fieldset")[miss].scrollIntoView({behavior:"smooth",block:"center"});return;}'
           'var b=s===0?0:s<=2?1:s<=7?2:3;r.className="abt-result abt-b"+b;r.hidden=false;'
           'r.innerHTML="<p class=\\"abt-score\\">"+T.score.replace("{s}",s)+"</p><h3>"+T.bands[b][0]+"</h3><p>"+T.bands[b][1]+"</p>"'
-          '+(b>=2?"<p class=\\"abt-help\\">"+T.help+"</p>":"")+"<a class=\\"abt-cta\\" href=\\"https://app.afterbetting.com/onboarding\\">"+T.cta+"</a>"'
+          '+(b>=2?"<p class=\\"abt-help\\">"+T.help+"</p>":"")+"<a class=\\"abt-cta\\" href=\\"https://app.afterbetting.com/onboarding?van=test\\">"+T.cta+"</a>"'
           '+"<p class=\\"abt-disc\\">"+T.disc+"</p><button type=\\"button\\" class=\\"abt-again\\">"+T.again+"</button>";'
           'r.querySelector(".abt-cta").addEventListener("click",function(){if(window.gtag)gtag("event","cta_click",{cta_location:"test_result",page_path:location.pathname});});'
           'r.querySelector(".abt-again").addEventListener("click",function(){f.reset();r.hidden=true;f.scrollIntoView({behavior:"smooth"});});'

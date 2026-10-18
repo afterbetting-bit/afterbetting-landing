@@ -49,7 +49,7 @@ def calc(lang):
           'var tot=w*52*y;r.className="abc-result";'
           'r.innerHTML="<p class=\\"abc-k\\">"+T.tot+"</p><p class=\\"abc-big\\">"+m(tot)+"</p><div class=\\"abc-row\\"><div><span>"+T.pm+"</span><strong>"+m(w*52/12)+"</strong></div>"'
           '+"<div><span>"+T.yr+"</span><strong>"+m(w*52)+"</strong></div><div><span>"+T.y5+"</span><strong>"+m(w*260)+"</strong></div></div>"'
-          '+"<a class=\\"abc-cta\\" href=\\"https://app.afterbetting.com/onboarding\\">"+T.cta+"</a>";'
+          '+"<a class=\\"abc-cta\\" href=\\"https://app.afterbetting.com/onboarding?van=calc\\">"+T.cta+"</a>";'
           'r.querySelector(".abc-cta").addEventListener("click",function(){if(window.gtag)gtag("event","cta_click",{cta_location:"calc_result",page_path:location.pathname});});'
           'if(window.gtag)gtag("event","calc_complete",{page_path:location.pathname});});})();')
     return (f'<div class="abc" id="rekenhulp"><form id="abc-form" novalidate><p class="abc-sub">{u["sub"]}</p>'
