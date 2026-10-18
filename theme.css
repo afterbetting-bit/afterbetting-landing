@@ -238,3 +238,7 @@ footer a { color: var(--apricot) !important; }
 /* Knop in het donkere slotblok van EN-artikelen was onzichtbaar (donker op donker), 18 okt 2026 */
 .body .cta a, article .cta a { display:inline-block; background: var(--apricot) !important; color: var(--ink) !important; text-decoration: none !important; font-weight: 600; padding: .75rem 1.6rem; border-radius: 12px; }
 .body .cta a:hover, article .cta a:hover { background: #F7C894 !important; }
+
+/* Tikdoelen minstens 24px hoog (18 okt 2026) */
+.f-col a { padding: .2rem 0; margin-bottom: .3rem !important; }
+.btn-text { display: inline-block; padding: .35rem 0; }
