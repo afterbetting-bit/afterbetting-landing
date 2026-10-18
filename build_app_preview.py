@@ -185,7 +185,7 @@ def phone_journal(t):
 
 def section(t, signup):
     figs = ''.join(f'<figure><div role="img" aria-label="{c[0]}">{ph}</div><figcaption><strong>{c[0]}</strong><span>{c[1]}</span></figcaption></figure>'
-                   for ph, c in zip((phone_today(t), phone_help(t), phone_habits(t), phone_journal(t), phone_money(t)), (t['caps'][0], t['caps'][1], t['caps2'][0], t['caps2'][1], t['caps'][2])))
+                   for ph, c in zip((phone_today(t), phone_money(t), phone_habits(t), phone_journal(t), phone_help(t)), (t['caps'][0], t['caps'][2], t['caps2'][0], t['caps2'][1], t['caps'][1])))
     return (f'<!-- app-preview:start -->\n<section class="app-preview" id="app"><div class="ap-inner">'
             f'<h2>{t["sec_h"]}</h2><p class="ap-lead">{t["sec_lead"]}</p><div class="ap-row">{figs}</div>'
             f'<div class="ap-cta"><a href="{signup}" onclick="if(window.gtag)gtag(\'event\',\'cta_click\',{{cta_location:\'app_preview\'}})">{t["cta"]}</a><p>{t["cta_sub"]}</p></div>'
