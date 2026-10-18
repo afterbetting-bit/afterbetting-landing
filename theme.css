@@ -184,3 +184,28 @@ footer a { color: var(--apricot) !important; }
 .mid-cta a{flex:0 0 auto;background:var(--ink);color:#fff !important;text-decoration:none !important;font-weight:600;font-size:.92rem;padding:.7rem 1.1rem;border-radius:12px;white-space:nowrap}
 .mid-cta a:hover{background:#22403A}
 @media(max-width:600px){.mid-cta{flex-direction:column;align-items:flex-start;gap:.8rem}}
+
+/* Zelftest PGSI (18 okt 2026) */
+.abt{background:#fff;border:1px solid var(--border);border-radius:18px;padding:1.5rem;margin:2rem 0}
+.abt-intro{font-weight:600;color:var(--ink);margin:0 0 1rem}
+.abt-q{border:0;border-top:1px solid var(--border);margin:0;padding:1rem 0}
+.abt-q legend{display:flex;gap:.6rem;font-size:1rem;font-weight:600;color:var(--ink);line-height:1.45;padding:0;margin-bottom:.7rem;float:left;width:100%}
+.abt-q legend span{flex:0 0 auto;font-size:.8rem;color:var(--muted);font-weight:500;padding-top:.15rem}
+.abt-o{clear:both;display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+.abt-o label{cursor:pointer}
+.abt-o input{position:absolute;opacity:0;pointer-events:none}
+.abt-o span{display:block;text-align:center;font-size:.86rem;padding:.6rem .4rem;border:1px solid var(--border);border-radius:10px;color:var(--mid);background:var(--cream)}
+.abt-o input:checked+span{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600}
+.abt-o input:focus-visible+span{outline:2px solid var(--apricot);outline-offset:2px}
+.abt-go{width:100%;margin-top:1rem;background:var(--ink);color:#fff;border:0;border-radius:12px;padding:.9rem;font-size:1rem;font-weight:600;cursor:pointer}
+.abt-note{font-size:.82rem;color:var(--muted);text-align:center;margin:.6rem 0 0}
+.abt-result{margin-top:1.25rem;border-radius:14px;padding:1.25rem;background:var(--clay-bg);border-left:4px solid var(--apricot)}
+.abt-result h3{margin:.2rem 0 .5rem}
+.abt-miss{background:#FFF4E5;font-weight:600}
+.abt-b0,.abt-b1{border-left-color:var(--green);background:var(--green-bg)}
+.abt-score{font-size:.9rem;font-weight:600;color:var(--muted);margin:0}
+.abt-help{font-size:.92rem}
+.abt a.abt-cta{display:inline-block;background:var(--ink);color:#fff !important;text-decoration:none !important;font-weight:600;padding:.75rem 1.1rem;border-radius:12px;margin:.4rem 0 .6rem}
+.abt-disc{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.abt-again{background:none;border:0;color:var(--mid);text-decoration:underline;cursor:pointer;padding:0;font-size:.86rem}
+@media(max-width:600px){.abt{padding:1.1rem}.abt-o{grid-template-columns:1fr 1fr}}
