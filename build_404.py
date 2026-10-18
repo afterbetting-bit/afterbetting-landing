@@ -1,7 +1,7 @@
 # 18 okt 2026: eigen 404-pagina (EN en NL; /nl/... krijgt de Nederlandse tekst). Bouwt op het sjabloon van een blogpagina.
 import re
 s = open('blog/gambling-addiction-test.html', encoding='utf-8').read()
-a = s.index('<title>'); b = s.index('<script async src="https://www.googletagmanager.com')
+a = s.index('<title>'); b = s.index('<script>window.addEventListener("load",function(){setTimeout(function(){var s=document.createElement("script");')
 head = ('<title>Page not found | Afterbetting</title>\n<meta name="description" content="This page does not exist. Find what you were looking for on Afterbetting."/>\n'
         '<meta name="robots" content="noindex,follow"/>\n')
 s = s[:a] + head + s[b:]
