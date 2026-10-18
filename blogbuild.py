@@ -21,10 +21,10 @@ def head(lang, url, title, desc, headline, crumb, home, blog, hreflang, date, ex
 
 def build(template, out, lang, url, title, desc, headline, crumb, home, blog, hero, body, cta, related, crisis, hreflang, date, extra_ld=''):
     s = open(template, encoding='utf-8').read()
-    a = s.index('<title>'); b = s.index('<script async src="https://www.googletagmanager.com')
+    a = s.index('<title>'); b = s.index('<script>window.addEventListener("load",function(){setTimeout(function(){var s=document.createElement("script");')
     s = s[:a] + head(lang, url, title, desc, headline, crumb, home, blog, hreflang, date, extra_ld) + s[b:]
     # andere ld+json uit het sjabloon (na de stijl) weghalen; de onze staan boven GA
-    first = s.index('<script async src="https://www.googletagmanager.com')
+    first = s.index('<script>window.addEventListener("load",function(){setTimeout(function(){var s=document.createElement("script");')
     s = s[:first] + re.sub(r'<script type="application/ld\+json">[\s\S]*?</script>\n?', '', s[first:])
     a = s.index('<section class="hero">'); b = s.index('<div class="crisis-footer">')
     s = s[:a] + hero + '\n<article class="body">\n' + body + '\n' + cta + '\n</article>\n' + related + '\n' + s[b:]
