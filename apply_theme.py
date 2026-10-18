@@ -2,7 +2,7 @@
 # Veilig om opnieuw te draaien.
 import glob, re
 OLD_FONT = re.compile(r'<link href="https://fonts\.googleapis\.com/css2\?family=Fraunces[^"]*" rel="stylesheet">')
-NEW_FONT = '<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">'
+NEW_FONT = '<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>'
 THEME = '<link rel="stylesheet" href="/theme.css">'
 # Losse oude kleuren in pagina's en scripts naar de nieuwe huisstijl.
 HEX = {'#FFFCFA': '#F6F8F5', '#FBF3EE': '#F6EDE2', '#F7F0EA': '#ECF0EC', '#2C2420': '#0F1A19', '#1a1612': '#22403A',
