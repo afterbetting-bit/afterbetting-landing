@@ -9,8 +9,10 @@ PAIRS = [  # (nl-slug, en-slug, datum)
     ('van-gokschuld-naar-nul', 'paid-off-gambling-debt', '2026-10-17'),
     ('verlies-terugwinnen-gokken', 'chasing-losses-gambling', '2026-10-17'),
     ('afkickverschijnselen-gokken', 'gambling-withdrawal-symptoms', '2026-10-17'),
+    ('gokverslaving-test', 'gambling-addiction-test', '2026-10-18'),
 ]
-NL_CARDS = {'verlies-terugwinnen-gokken': ('Stoppen', 'Verlies terugwinnen met gokken: waarom het nooit lukt', 'Ik won ooit 68.000 euro en vergokte alles. Waarom terugwinnen niet werkt, en wat je in plaats daarvan doet.', '17 oktober 2026', '8 min lezen'),
+NL_CARDS = {'gokverslaving-test': ('Zelftest', 'Gokverslaving test: ben ik gokverslaafd?', '9 vragen over de afgelopen 12 maanden. Anoniem, in twee minuten, met uitleg over je uitslag.', '18 oktober 2026', '2 min test'),
+            'verlies-terugwinnen-gokken': ('Stoppen', 'Verlies terugwinnen met gokken: waarom het nooit lukt', 'Ik won ooit 68.000 euro en vergokte alles. Waarom terugwinnen niet werkt, en wat je in plaats daarvan doet.', '17 oktober 2026', '8 min lezen'),
             'afkickverschijnselen-gokken': ('Herstel', 'Afkickverschijnselen bij stoppen met gokken', 'Leegte, triggers en wakker liggen. Wat ik merkte in de eerste weken, en wat hielp.', '17 oktober 2026', '8 min lezen'),
             'van-gokschuld-naar-nul': ('Geld', 'Van 40k gokschuld naar nul', 'Hoe ik in bijna 2 jaar meer dan 40.000 euro gokschuld heb afgelost. Wat ik deed en wat ik leerde.', '17 oktober 2026', '9 min lezen'),
             'gokverslaving-hulp-zoeken': ('Hulp', 'Hulp bij gokverslaving: waar je terechtkunt', 'Wat er in Nederland is, wat het kost en wat je kunt verwachten.', '11 oktober 2026', '7 min lezen'),
@@ -19,7 +21,8 @@ NL_CARDS = {'verlies-terugwinnen-gokken': ('Stoppen', 'Verlies terugwinnen met g
             'stoppen-met-gokken-als-je-wint': ('Stoppen', 'Stoppen met gokken als je wint', 'Het voelt als het slechtste moment om te stoppen. Het is het beste.', '11 oktober 2026', '7 min lezen'),
             'goksites-blokkeren': ('Tools', 'Goksites blokkeren: telefoon, laptop en je bank', 'Wat er echt kan op je telefoon, je laptop en bij je bank. En wat niet bestaat, al lees je online van wel.', '11 oktober 2026', '9 min lezen'),
             'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
-EN_CARDS = {'chasing-losses-gambling': ('Quitting', 'Chasing losses in gambling: why it never works', 'I once won €68,000 and gambled it all away. Why winning it back never works, and what to do instead.'),
+EN_CARDS = {'gambling-addiction-test': ('Self-test', 'Gambling addiction test: am I addicted to gambling?', 'Nine questions about the last 12 months. Anonymous, two minutes, with an honest look at your score.'),
+            'chasing-losses-gambling': ('Quitting', 'Chasing losses in gambling: why it never works', 'I once won €68,000 and gambled it all away. Why winning it back never works, and what to do instead.'),
             'gambling-withdrawal-symptoms': ('Recovery', 'Gambling withdrawal symptoms: what to expect', 'Emptiness, triggers and lying awake. What I noticed in the first weeks after stopping, and what helped.'),
             'paid-off-gambling-debt': ('Money', 'How I paid off my gambling debt: from €40k to zero', 'Almost two years of paying off more than €40,000. What I did, what was hard and what I learned.'),
             'where-to-get-help-gambling-addiction': ('Support', 'Where to get help for gambling addiction', 'What is available in the UK, what it costs and what to expect.'),
