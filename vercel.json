@@ -50,6 +50,36 @@
       "source": "/terms",
       "destination": "https://app.afterbetting.com/terms",
       "permanent": true
+    },
+    {
+      "source": "/de",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/de/",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/fr",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/fr/",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es/",
+      "destination": "/",
+      "permanent": false
     }
   ],
   "rewrites": [
