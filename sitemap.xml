@@ -662,4 +662,40 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addiction-test"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addiction-test"/>
   </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/hoeveel-heb-ik-vergokt</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/hoeveel-heb-ik-vergokt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-much-have-i-lost-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-much-have-i-lost-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/how-much-have-i-lost-gambling</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/hoeveel-heb-ik-vergokt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-much-have-i-lost-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-much-have-i-lost-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/waarom-liegen-gokkers</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/waarom-liegen-gokkers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addict-lying"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addict-lying"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/gambling-addict-lying</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/waarom-liegen-gokkers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-addict-lying"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-addict-lying"/>
+  </url>
 </urlset>
