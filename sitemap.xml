@@ -9,9 +9,6 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://afterbetting.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afterbetting.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://afterbetting.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com"/>
   </url>
 
@@ -22,47 +19,11 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://afterbetting.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afterbetting.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://afterbetting.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com"/>
   </url>
 
-  <url>
-    <loc>https://afterbetting.com/de/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://afterbetting.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afterbetting.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://afterbetting.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com"/>
-  </url>
 
-  <url>
-    <loc>https://afterbetting.com/fr/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://afterbetting.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afterbetting.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://afterbetting.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com"/>
-  </url>
 
-  <url>
-    <loc>https://afterbetting.com/es/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://afterbetting.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afterbetting.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://afterbetting.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com"/>
-  </url>
 
   <url>
     <loc>https://afterbetting.com/about</loc>
