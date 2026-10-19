@@ -12,6 +12,7 @@ PAIRS = [  # (nl-slug, en-slug, datum)
     ('gokverslaving-test', 'gambling-addiction-test', '2026-10-18'),
     ('hoeveel-heb-ik-vergokt', 'how-much-have-i-lost-gambling', '2026-10-18'),
     ('waarom-liegen-gokkers', 'gambling-addict-lying', '2026-10-18'),
+    ('stoppen-met-gokken', 'how-to-stop-gambling', '2026-10-19'),
 ]
 NL_CARDS = {'hoeveel-heb-ik-vergokt': ('Geld', 'Hoeveel heb ik vergokt? Reken het eerlijk uit', 'Reken uit wat je in totaal hebt verloren, en wat je vanaf vandaag houdt als je stopt.', '18 oktober 2026', '1 min rekenen'),
             'waarom-liegen-gokkers': ('Naasten', 'Waarom liegen gokkers?', 'Hoe kleine leugens groot worden, en wat je als naaste of als gokker kunt doen. Van iemand die jaren loog.', '18 oktober 2026', '8 min lezen'),
@@ -25,7 +26,8 @@ NL_CARDS = {'hoeveel-heb-ik-vergokt': ('Geld', 'Hoeveel heb ik vergokt? Reken he
             'stoppen-met-gokken-als-je-wint': ('Stoppen', 'Stoppen met gokken als je wint', 'Het voelt als het slechtste moment om te stoppen. Het is het beste.', '11 oktober 2026', '7 min lezen'),
             'goksites-blokkeren': ('Tools', 'Goksites blokkeren: telefoon, laptop en je bank', 'Wat er echt kan op je telefoon, je laptop en bij je bank. En wat niet bestaat, al lees je online van wel.', '11 oktober 2026', '9 min lezen'),
             'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
-EN_CARDS = {'how-much-have-i-lost-gambling': ('Money', 'How much have I lost gambling? Work it out', 'Work out what you have lost in total, and what you keep from today if you stop.'),
+EN_CARDS = {'how-to-stop-gambling': ('Quitting', 'How to stop gambling: an honest guide', 'What actually works when willpower is not enough, and how to start today. From someone who gambled for 8 years.'),
+            'how-much-have-i-lost-gambling': ('Money', 'How much have I lost gambling? Work it out', 'Work out what you have lost in total, and what you keep from today if you stop.'),
             'gambling-addict-lying': ('Family', 'Gambling addict lying: why it happens and how to help', 'How small lies grow, and how to help as a partner or parent. From someone who lied for years.'),
             'gambling-addiction-test': ('Self-test', 'Gambling addiction test: am I addicted to gambling?', 'Nine questions about the last 12 months. Anonymous, two minutes, with an honest look at your score.'),
             'chasing-losses-gambling': ('Quitting', 'Chasing losses in gambling: why it never works', 'I once won €68,000 and gambled it all away. Why winning it back never works, and what to do instead.'),
