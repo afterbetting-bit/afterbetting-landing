@@ -2,12 +2,12 @@
 import re, glob
 
 THEMES = {
+ 'naaste': ['my-partner-has', 'mijn-partner-is', 'mijn-kind', 'mijn-vriend', 'omgaan-met-gokverslaafde', 'iemand-anders', 'exclude-someone'],
  'geld': ['chasing-losses', 'gambled-away-paycheck', 'paid-off', 'rebuild-finances', 'snowball', 'geld-terugvragen',
-          'gokschuld', 'met-schulden', 'salaris', 'sneeuwbal', 'verlies-terugwinnen'],
+          'gokschuld', 'met-schulden', 'mortgage', 'salaris', 'sneeuwbal', 'verlies-terugwinnen'],
  'drang': ['urges', 'withdrawal', 'what-to-do-instead', 'sleep-after', 'drang', 'afkick', 'hoe-vul-ik', 'slaap',
-           'daily-habits', 'dagelijkse'],
+           'daily-habits', 'dagelijkse', 'alcohol'],
  'blok': ['block-gambling', 'gamstop', 'self-exclusion', 'cruks', 'goksites-blokkeren', 'zelfuitsluiting'],
- 'naaste': ['my-partner-has', 'mijn-partner-is', 'mijn-kind', 'mijn-vriend', 'omgaan-met-gokverslaafde'],
 }
 T = {
  'nl': {
