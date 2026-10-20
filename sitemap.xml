@@ -125,7 +125,7 @@
 
   <url>
     <loc>https://afterbetting.com/blog/rebuild-finances-after-gambling</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-aflossen"/>
@@ -225,7 +225,7 @@
 
   <url>
     <loc>https://afterbetting.com/nl/blog/gokschuld-aflossen</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-aflossen"/>
@@ -398,7 +398,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
@@ -539,7 +539,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/drang-om-te-gokken</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/drang-om-te-gokken"/>
@@ -548,7 +548,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/blog/do-gambling-urges-go-away</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/drang-om-te-gokken"/>
@@ -707,5 +707,59 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/stoppen-met-gokken"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/how-to-stop-gambling"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/how-to-stop-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/exclude-someone-else-from-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/exclude-someone-else-from-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/exclude-someone-else-from-gambling</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/exclude-someone-else-from-gambling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/exclude-someone-else-from-gambling"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/gokschuld-bkr-hypotheek</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-bkr-hypotheek"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/will-gambling-affect-my-mortgage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/will-gambling-affect-my-mortgage"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/will-gambling-affect-my-mortgage</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokschuld-bkr-hypotheek"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/will-gambling-affect-my-mortgage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/will-gambling-affect-my-mortgage"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/gokken-en-alcohol</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-en-alcohol"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/gambling-and-alcohol</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-en-alcohol"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
   </url>
 </urlset>
