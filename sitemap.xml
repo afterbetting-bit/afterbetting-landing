@@ -380,7 +380,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/blog/my-partner-has-a-gambling-problem</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-partner-has-a-gambling-problem"/>
@@ -398,7 +398,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-partner-is-gokverslaafd-wat-doe-ik"/>
@@ -452,7 +452,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/omgaan-met-gokverslaafde-naaste</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/omgaan-met-gokverslaafde-naaste"/>
@@ -460,7 +460,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/mijn-kind-is-gokverslaafd</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-kind-is-gokverslaafd"/>
@@ -692,7 +692,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/blog/gambling-addict-lying</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/waarom-liegen-gokkers"/>
@@ -710,7 +710,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven"/>
@@ -719,7 +719,7 @@
   </url>
   <url>
     <loc>https://afterbetting.com/blog/exclude-someone-else-from-gambling</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/cruks-iemand-anders-inschrijven"/>
@@ -761,5 +761,23 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/gokken-en-alcohol"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/gambling-and-alcohol"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/nl/blog/mijn-vader-of-moeder-is-gokverslaafd</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-vader-of-moeder-is-gokverslaafd"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-parent-has-a-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-parent-has-a-gambling-problem"/>
+  </url>
+  <url>
+    <loc>https://afterbetting.com/blog/my-parent-has-a-gambling-problem</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://afterbetting.com/nl/blog/mijn-vader-of-moeder-is-gokverslaafd"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afterbetting.com/blog/my-parent-has-a-gambling-problem"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://afterbetting.com/blog/my-parent-has-a-gambling-problem"/>
   </url>
 </urlset>
