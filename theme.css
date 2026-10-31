@@ -246,3 +246,10 @@ footer a { color: var(--apricot) !important; }
 /* Vaste balk onderaan: twee regels (31 okt 2026) */
 .ab-sticky .ab-sticky-text strong{display:block;font-weight:700;line-height:1.3}
 .ab-sticky .ab-sticky-text small{display:block;font-size:.8rem;font-weight:400;opacity:.85;line-height:1.35;margin-top:.1rem}
+
+/* Bronnen onderaan artikelen, klein (31 okt 2026) */
+article .sources{margin:2rem 0 0;padding-top:1rem;border-top:1px solid var(--border)}
+article .sources-label{font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--mid);opacity:.75;margin:0 0 .4rem}
+article .sources ul{margin:0;padding-left:1.1rem}
+article .sources li{font-size:.8rem;line-height:1.5;color:var(--mid);margin:.15rem 0}
+article .sources a{color:var(--mid) !important;text-decoration-color:var(--border) !important;text-decoration-thickness:1px !important;text-underline-offset:2px}
