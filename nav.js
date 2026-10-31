@@ -34,3 +34,30 @@
   document.addEventListener('click', function (e) { if (nav.classList.contains('ab-open') && !nav.contains(e.target)) set(false); });
   links.parentNode.insertBefore(btn, links.nextSibling);
 })();
+
+// 31 okt 2026: meten en de vaste balk onderaan (#abSticky, staat al in elk blogartikel).
+// 1. Elke klik naar de aanmelding telt als cta_click. De knop in de navigatie had nog geen meting.
+// 2. De balk gaat even weg zolang een andere aanmeldknop of de crisisregel in beeld is, zodat hij die niet afdekt.
+(function () {
+  var APP = 'app.afterbetting.com/onboarding';
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="' + APP + '"]');
+    if (!a || a.hasAttribute('onclick')) return;
+    try {
+      var t = (a.getAttribute('href').match(/[?&]t=([a-z]+)/) || [])[1] || '';
+      if (window.gtag) window.gtag('event', 'cta_click', { cta_location: a.closest('nav') ? 'nav' : 'link', cta_theme: t, page_path: location.pathname });
+    } catch (err) { /* geen meting */ }
+  }, true);
+
+  var bar = document.getElementById('abSticky');
+  if (!bar || !('IntersectionObserver' in window)) return;
+  var css = document.createElement('style');
+  css.textContent = '.ab-sticky.ab-hide{transform:translateY(110%) !important}';
+  document.head.appendChild(css);
+  var seen = new Set();
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) seen.add(en.target); else seen.delete(en.target); });
+    bar.classList.toggle('ab-hide', seen.size > 0);
+  });
+  document.querySelectorAll('.mid-cta, .cta, .cta-block, .crisis-footer').forEach(function (el) { io.observe(el); });
+})();
