@@ -269,3 +269,9 @@ article a.app-card-btn,.app-card a.app-card-btn{color:#fff !important;text-decor
 .answer-box{background:#EEF5F2;border:1px solid #C2D8D0;border-radius:12px;padding:1.1rem 1.25rem;margin:0 0 1.75rem}
 .answer-box h2{font-size:1.1rem;margin:0 0 .5rem}
 .answer-box p{margin:0}
+
+/* Vergelijkingstabel in artikelen (8 nov 2026) */
+.cmp-wrap{overflow-x:auto;margin:1rem 0 1.5rem}
+.cmp-table{width:100%;border-collapse:collapse;font-size:.92rem}
+.cmp-table th,.cmp-table td{border-bottom:1px solid var(--border);padding:.6rem .5rem;text-align:left;vertical-align:top}
+.cmp-table th{font-weight:600;color:var(--ink)}
