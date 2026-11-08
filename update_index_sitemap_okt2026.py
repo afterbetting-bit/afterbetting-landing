@@ -20,8 +20,10 @@ PAIRS = [  # (nl-slug, en-slug, datum)
     ('waarom-kan-ik-niet-stoppen-met-gokken', 'why-cant-i-stop-gambling', '2026-10-31'),
     ('stoppen-met-gokken-en-sparen', 'how-to-stop-gambling-and-save-money', '2026-10-31'),
     ('gokverslaving-forum-en-lotgenoten', 'gambling-addiction-support-groups', '2026-10-31'),
+    ('stoppen-met-gokken-app', 'quit-gambling-app', '2026-11-08'),
 ]
-NL_CARDS = {'waarom-kan-ik-niet-stoppen-met-gokken': ('Stoppen', 'Waarom kan ik niet stoppen met gokken?', 'Acht eerlijke redenen waarom stoppen zo moeilijk is, en wat wel werkt.', '31 oktober 2026', '7 min lezen'),
+NL_CARDS = {'stoppen-met-gokken-app': ('Stoppen', 'Stoppen met gokken app: welke helpt echt?', 'Blokkeer-apps, de gokstop en herstel-apps: wat elk doet en hoe je ze combineert.', '8 november 2026', '8 min lezen'),
+            'waarom-kan-ik-niet-stoppen-met-gokken': ('Stoppen', 'Waarom kan ik niet stoppen met gokken?', 'Acht eerlijke redenen waarom stoppen zo moeilijk is, en wat wel werkt.', '31 oktober 2026', '7 min lezen'),
             'stoppen-met-gokken-en-sparen': ('Geld', 'Stoppen met gokken en sparen', 'Van verliezen, naar aflossen, naar opbouwen. En waarom je jezelf iets mag gunnen.', '31 oktober 2026', '7 min lezen'),
             'gokverslaving-forum-en-lotgenoten': ('Hulp', 'Gokverslaving forum en lotgenoten', 'Lotgenotengroepen, forums en chat: wat er is, wat het kost en waar je op let.', '31 oktober 2026', '6 min lezen'),
             'mijn-vader-of-moeder-is-gokverslaafd': ('Naasten', 'Mijn vader of moeder is gokverslaafd: wat kun je doen?', 'Wat je wel en niet kunt doen, hoe je het gesprek begint en waar je hulp vindt.', '25 oktober 2026', '9 min lezen'),
@@ -40,7 +42,8 @@ NL_CARDS = {'waarom-kan-ik-niet-stoppen-met-gokken': ('Stoppen', 'Waarom kan ik 
             'stoppen-met-gokken-als-je-wint': ('Stoppen', 'Stoppen met gokken als je wint', 'Het voelt als het slechtste moment om te stoppen. Het is het beste.', '11 oktober 2026', '7 min lezen'),
             'goksites-blokkeren': ('Tools', 'Goksites blokkeren: telefoon, laptop en je bank', 'Wat er echt kan op je telefoon, je laptop en bij je bank. En wat niet bestaat, al lees je online van wel.', '11 oktober 2026', '9 min lezen'),
             'cruks-opzeggen': ('Crisis', 'Cruks opzeggen: zo werkt het, en lees dit eerst', 'De regels van de Kansspelautoriteit, eerlijk uitgelegd. En wat je doet als de zin om te spelen nu groot is.', '11 oktober 2026', '8 min lezen')}
-EN_CARDS = {'why-cant-i-stop-gambling': ('Quitting', "Why can't I stop gambling?", 'Eight honest reasons quitting is so hard, and what actually works.'),
+EN_CARDS = {'quit-gambling-app': ('Quitting', 'Quit gambling app: which ones actually help?', 'Blockers, self-exclusion and recovery apps: what each does and how to combine them.'),
+            'why-cant-i-stop-gambling': ('Quitting', "Why can't I stop gambling?", 'Eight honest reasons quitting is so hard, and what actually works.'),
             'how-to-stop-gambling-and-save-money': ('Money', 'How to stop gambling and save money', "From losing, to paying off, to building. And why you're allowed to treat yourself."),
             'gambling-addiction-support-groups': ('Support', 'Gambling addiction support groups, forums and meetings', 'Gamblers Anonymous, GamCare forums and chatrooms: what exists and what to watch for.'),
             'my-parent-has-a-gambling-problem': ('Family', 'My dad or mum has a gambling problem: what can I do?', "What you can and can't change, how to start the conversation and where to find support."),
